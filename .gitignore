@@ -1,6 +1,4 @@
-# Image folders
-images/
-output/
+# Debug/temp folders
 debug_crops/
 
 # Python
