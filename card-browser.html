@@ -88,8 +88,8 @@
             cursor: grab;
             transition: transform 0.2s, z-index 0s;
         }
-        .card:hover {
-            transform: scale(2);
+        .card:hover:not(.dragging) {
+            transform: scale(1.75);
             z-index: 100;
             position: relative;
         }
@@ -98,6 +98,7 @@
         }
         .card.dragging {
             opacity: 0.5;
+            transform: none;
         }
         .card-pool {
             max-width: 1200px;
@@ -123,13 +124,14 @@
             border-radius: 6px;
             transition: transform 0.2s;
         }
-        .pool-card:hover {
-            transform: scale(2);
+        .pool-card:hover:not(.dragging) {
+            transform: scale(1.75);
             z-index: 100;
             position: relative;
         }
         .pool-card.dragging {
             opacity: 0.5;
+            transform: none;
         }
         /* Card Selector Tab */
         .selector-grid {
@@ -152,7 +154,7 @@
             transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
         }
         .selector-item:hover img {
-            transform: scale(2);
+            transform: scale(1.75);
             z-index: 100;
             position: relative;
         }
@@ -271,6 +273,33 @@
         let draggedCard = null;
         let dragSource = null;
 
+        function setZoomOrigin(e) {
+            const el = e.target;
+            const rect = el.getBoundingClientRect();
+            const scale = 1.75;
+            const expandedWidth = rect.width * scale;
+            const expandedHeight = rect.height * scale;
+            
+            let originX = 'center';
+            let originY = 'center';
+            
+            // Check horizontal bounds
+            if (rect.left - (expandedWidth - rect.width) / 2 < 0) {
+                originX = 'left';
+            } else if (rect.right + (expandedWidth - rect.width) / 2 > window.innerWidth) {
+                originX = 'right';
+            }
+            
+            // Check vertical bounds
+            if (rect.top - (expandedHeight - rect.height) / 2 < 0) {
+                originY = 'top';
+            } else if (rect.bottom + (expandedHeight - rect.height) / 2 > window.innerHeight) {
+                originY = 'bottom';
+            }
+            
+            el.style.transformOrigin = `${originX} ${originY}`;
+        }
+
         function init() {
             createGrid();
             loadSelector();
@@ -342,6 +371,7 @@
                 
                 const img = document.createElement('img');
                 img.src = `images/${character}/${card}`;
+                img.addEventListener('mouseenter', setZoomOrigin);
                 
                 const checkmark = document.createElement('div');
                 checkmark.className = 'checkmark';
@@ -388,6 +418,7 @@
                 img.dataset.card = card;
                 img.addEventListener('dragstart', handlePoolDragStart);
                 img.addEventListener('dragend', handleDragEnd);
+                img.addEventListener('mouseenter', setZoomOrigin);
                 pool.appendChild(img);
             });
         }
@@ -462,6 +493,7 @@
             img.dataset.card = card;
             img.addEventListener('dragstart', handleGridDragStart);
             img.addEventListener('dragend', handleDragEnd);
+            img.addEventListener('mouseenter', setZoomOrigin);
             cell.appendChild(img);
         }
 
