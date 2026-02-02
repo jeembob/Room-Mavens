@@ -10,7 +10,6 @@ venv/
 
 # Data files
 *.har
-*.csv
 
 # OS files
 .DS_Store
