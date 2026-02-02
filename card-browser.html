@@ -227,19 +227,44 @@
         const ROWS = 3;
         const COLS = 8;
         
-        const cards = {
+        // Card data: sorted by level, then initiative
+        const cardData = {
             Bruiser: [
-                "balanced-measure.jpeg", "brute-force.jpeg", "crippling-offensive.jpeg",
-                "defensive-tactics.jpeg", "eye-for-an-eye.jpeg", "face-your-end.jpeg",
-                "fearsome-taunt.jpeg", "frenzied-onslaught.jpeg", "grab-and-go.jpeg",
-                "hook-and-chain.jpeg", "immovable-phalanx.jpeg", "intimidating-growl.jpeg",
-                "juggernaut.jpeg", "leaping-cleave.jpeg", "leg-fly.jpeg",
-                "overwhelming-assault.jpeg", "provoking-roar.jpeg", "push-through.jpeg",
-                "run-through.jpeg", "selfish-retribution.jpeg", "shield-bash.jpeg",
-                "skewer.jpeg", "skirmishing-maneuver.jpeg", "spare-dagger.jpeg",
-                "sweeping-blow.jpeg", "trample.jpeg", "unstoppable-charge.jpeg",
-                "warding-strength.jpeg", "whirlwind.jpeg"
+                { file: "balanced-measure.jpeg", level: 1, initiative: 20 },
+                { file: "eye-for-an-eye.jpeg", level: 1, initiative: 13 },
+                { file: "shield-bash.jpeg", level: 1, initiative: 15 },
+                { file: "spare-dagger.jpeg", level: 1, initiative: 27 },
+                { file: "warding-strength.jpeg", level: 1, initiative: 32 },
+                { file: "skewer.jpeg", level: 1, initiative: 35 },
+                { file: "leaping-cleave.jpeg", level: 1, initiative: 54 },
+                { file: "overwhelming-assault.jpeg", level: 1, initiative: 61 },
+                { file: "trample.jpeg", level: 1, initiative: 72 },
+                { file: "grab-and-go.jpeg", level: 1, initiative: 87 },
+                { file: "juggernaut.jpeg", level: 2, initiative: 34 },
+                { file: "intimidating-growl.jpeg", level: 2, initiative: 51 },
+                { file: "hook-and-chain.jpeg", level: 3, initiative: 42 },
+                { file: "unstoppable-charge.jpeg", level: 3, initiative: 86 },
+                { file: "whirlwind.jpeg", level: 4, initiative: 28 },
+                { file: "push-through.jpeg", level: 4, initiative: 57 },
+                { file: "skirmishing-maneuver.jpeg", level: 5, initiative: 29 },
+                { file: "defensive-tactics.jpeg", level: 5, initiative: 39 },
+                { file: "immovable-phalanx.jpeg", level: 6, initiative: 17 },
+                { file: "run-through.jpeg", level: 6, initiative: 33 },
+                { file: "selfish-retribution.jpeg", level: 7, initiative: 8 },
+                { file: "leg-fly.jpeg", level: 7, initiative: 19 },
+                { file: "fearsome-taunt.jpeg", level: 8, initiative: 10 },
+                { file: "crippling-offensive.jpeg", level: 8, initiative: 16 },
+                { file: "provoking-roar.jpeg", level: 8, initiative: 18 },
+                { file: "sweeping-blow.jpeg", level: 8, initiative: 23 },
+                { file: "frenzied-onslaught.jpeg", level: 8, initiative: 41 },
+                { file: "brute-force.jpeg", level: 9, initiative: 9 },
+                { file: "face-your-end.jpeg", level: 9, initiative: 67 }
             ]
+        };
+        
+        // Extract just filenames for compatibility
+        const cards = {
+            Bruiser: cardData.Bruiser.map(c => c.file)
         };
 
         let selectedCards = new Set();
