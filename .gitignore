@@ -1,0 +1,19 @@
+# Image folders
+images/
+output/
+debug_crops/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Data files
+*.har
+*.csv
+
+# OS files
+.DS_Store
+Thumbs.db

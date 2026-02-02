@@ -1,0 +1,1 @@
+python extractor.py "https://www.gloomhavencards.com/gh2/characters/BR2" "card-img" --selenium --wait 5
