@@ -17,39 +17,6 @@ A Chrome extension that replaces placeholder card images on [gloomhaven.smigiel.
 - Cards with matching artwork will automatically display the full card image
 - A magenta border indicates successfully replaced cards
 
-## Available Cards
-
-### Bruiser (29 cards)
-- Balanced Measure
-- Brute Force
-- Crippling Offensive
-- Defensive Tactics
-- Eye For An Eye
-- Face Your End
-- Fearsome Taunt
-- Frenzied Onslaught
-- Grab And Go
-- Hook And Chain
-- Immovable Phalanx
-- Intimidating Growl
-- Juggernaut
-- Leaping Cleave
-- Leg Fly
-- Overwhelming Assault
-- Provoking Roar
-- Push Through
-- Run Through
-- Selfish Retribution
-- Shield Bash
-- Skewer
-- Skirmishing Maneuver
-- Spare Dagger
-- Sweeping Blow
-- Trample
-- Unstoppable Charge
-- Warding Strength
-- Whirlwind
-
 ## Adding New Cards
 
 1. Add card images to `images/{CharacterName}/` as `.jpeg` files
