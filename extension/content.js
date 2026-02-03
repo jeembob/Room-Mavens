@@ -143,36 +143,54 @@ function isItemCardWithoutLabels(button) {
   if (!button.classList.contains('image') || !button.classList.contains('cell')) return false;
   const svg = button.querySelector('svg.item');
   if (!svg) return false;
-  if (button.querySelector('.name, .cost, .code')) return false;
+  if (button.querySelector('.name, .cost')) return false;
   return true;
 }
 
 function createItemLabel(className, text, isRotated) {
   const p = document.createElement('p');
-  p.className = `${className} germania shadow injected-item-label`;
+  p.className = `${className} top-half germania shadow injected-item-label`;
   p.textContent = text;
-  p.style.cssText = `
+  
+  const baseStyle = `
     position: absolute;
-    font-family: 'Germania One', cursive;
-    text-shadow: 1px 1px 2px black, -1px -1px 2px black, 1px -1px 2px black, -1px 1px 2px black;
-    color: white;
     margin: 0;
     z-index: 10;
     pointer-events: none;
   `;
   
   if (className === 'name') {
-    p.style.top = isRotated ? '5px' : '5px';
-    p.style.left = isRotated ? '5px' : '5px';
-    p.style.fontSize = isRotated ? '14px' : '18px';
+    if (isRotated) {
+      p.style.cssText = baseStyle + `
+        top: 5px;
+        left: 5px;
+        font-size: 14px;
+        transform: rotate(90deg);
+        transform-origin: top left;
+      `;
+    } else {
+      p.style.cssText = baseStyle + `
+        top: 5px;
+        left: 5px;
+        font-size: 18px;
+      `;
+    }
   } else if (className === 'cost') {
-    p.style.bottom = isRotated ? '5px' : '5px';
-    p.style.left = isRotated ? '5px' : '5px';
-    p.style.fontSize = isRotated ? '16px' : '20px';
-  } else if (className === 'code') {
-    p.style.top = isRotated ? '5px' : '5px';
-    p.style.right = isRotated ? '5px' : '5px';
-    p.style.fontSize = isRotated ? '14px' : '18px';
+    if (isRotated) {
+      p.style.cssText = baseStyle + `
+        bottom: 5px;
+        left: 5px;
+        font-size: 16px;
+        transform: rotate(90deg);
+        transform-origin: bottom left;
+      `;
+    } else {
+      p.style.cssText = baseStyle + `
+        bottom: 5px;
+        left: 5px;
+        font-size: 20px;
+      `;
+    }
   }
   
   return p;
@@ -183,15 +201,28 @@ function createEquipSlotIcon(equipSlot, isRotated) {
   
   const div = document.createElement('div');
   div.className = 'overlay icon equip-slot injected-item-label';
-  div.innerHTML = `<svg class="icon small" fill="currentColor" stroke="currentColor" style="width: ${isRotated ? '20px' : '24px'}; height: ${isRotated ? '20px' : '24px'};">${EQUIP_SLOT_ICONS[equipSlot]}</svg>`;
-  div.style.cssText = `
-    position: absolute;
-    bottom: ${isRotated ? '5px' : '5px'};
-    right: ${isRotated ? '5px' : '5px'};
-    color: white;
-    z-index: 10;
-    pointer-events: none;
-  `;
+  const size = isRotated ? '20px' : '24px';
+  div.innerHTML = `<svg class="icon small" fill="#6B7C9B" stroke="black" style="width: ${size}; height: ${size};">${EQUIP_SLOT_ICONS[equipSlot]}</svg>`;
+  
+  if (isRotated) {
+    div.style.cssText = `
+      position: absolute;
+      bottom: 50%;
+      right: 5px;
+      transform: rotate(90deg) translateX(50%);
+      z-index: 10;
+      pointer-events: none;
+    `;
+  } else {
+    div.style.cssText = `
+      position: absolute;
+      bottom: 5px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 10;
+      pointer-events: none;
+    `;
+  }
   
   return div;
 }
@@ -216,9 +247,6 @@ function processItemCard(button) {
   }
   if (item.cost) {
     button.appendChild(createItemLabel('cost', item.cost, isRotated));
-  }
-  if (item.code) {
-    button.appendChild(createItemLabel('code', item.code, isRotated));
   }
   if (item.equip_slot) {
     const icon = createEquipSlotIcon(item.equip_slot, isRotated);
