@@ -131,12 +131,17 @@ function getImageIdFromHref(href) {
   return match ? match[1] : null;
 }
 
-function isItemCardWithoutLabels(button) {
+function isItemCardButton(button) {
   if (!button.classList.contains('image') || !button.classList.contains('cell')) return false;
   const svg = button.querySelector('svg.item');
-  if (!svg) return false;
-  if (button.querySelector('.name, .cost')) return false;
-  return true;
+  return !!svg;
+}
+
+function removeInjectedLabels(button) {
+  const labels = button.querySelectorAll('.injected-item-label');
+  labels.forEach(label => label.remove());
+  const svg = button.querySelector('svg.item');
+  if (svg) svg.style.outline = '';
 }
 
 function createItemLabel(className, text, isRotated) {
@@ -222,19 +227,29 @@ function createEquipSlotIcon(equipSlotIndex, isRotated) {
 }
 
 function processItemCard(button) {
-  if (!isItemCardWithoutLabels(button)) return;
+  if (!isItemCardButton(button)) return;
   
   const svg = button.querySelector('svg.item');
   const image = svg.querySelector('image');
   const href = image?.getAttribute('href') || image?.getAttribute('xlink:href');
   const imageId = getImageIdFromHref(href);
   
-  if (!imageId || !itemCardsByImageId[imageId]) return;
+  if (!imageId || !itemCardsByImageId[imageId]) {
+    removeInjectedLabels(button);
+    return;
+  }
   
   const item = itemCardsByImageId[imageId];
+  const currentInjectedId = button.dataset.injectedImageId;
+  
+  if (currentInjectedId === imageId) return;
+  
+  removeInjectedLabels(button);
+  
   const isRotated = svg.classList.contains('rotate');
   
   button.style.position = 'relative';
+  button.dataset.injectedImageId = imageId;
   
   if (item.name) {
     button.appendChild(createItemLabel('name', item.name, isRotated));
