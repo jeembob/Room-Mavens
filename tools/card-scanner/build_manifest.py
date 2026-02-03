@@ -5,39 +5,19 @@ import json
 from pathlib import Path
 
 
-def parse_linksandnames(filepath: Path) -> list[tuple[str, str]]:
-    """Parse linksandnames.md and return list of (folder_name, url_part) tuples."""
-    entries = []
-    with open(filepath, 'r') as f:
-        for line in f:
-            line = line.strip()
-            # Skip header or empty lines
-            if not line or line.startswith('Folder name'):
-                continue
-            parts = [p.strip() for p in line.split(',')]
-            if len(parts) == 2:
-                entries.append((parts[0], parts[1]))
-    return entries
-
-
 def generate_cards_manifest():
     scanner_dir = Path(__file__).parent
     repo_root = scanner_dir.parent.parent
     images_dir = repo_root / "images"
     output_file = repo_root / "tools" / "card-injector" / "cards.json"
-    linksandnames_file = scanner_dir / "linksandnames.md"
-    
-    # Get character list from linksandnames.md
-    characters = parse_linksandnames(linksandnames_file)
     
     cards = {}
     
-    for folder_name, url_part in characters:
-        folder_path = images_dir / folder_name
+    for folder_path in sorted(images_dir.iterdir()):
         if not folder_path.is_dir():
-            print(f"  Warning: Folder not found: {folder_name}")
             continue
         
+        folder_name = folder_path.name
         card_names = []
         for image_file in sorted(folder_path.iterdir()):
             if image_file.suffix.lower() in ('.jpeg', '.jpg', '.png', '.webp'):
