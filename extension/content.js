@@ -179,11 +179,10 @@ function createItemLabel(className, text, isRotated) {
   } else if (className === 'cost') {
     if (isRotated) {
       p.style.cssText = baseStyle + `
-        top: 50%;
-        left: 5px;
+        bottom: 5px;
+        left: 50%;
         font-size: 14px;
-        transform: rotate(90deg) translateX(-50%);
-        transform-origin: top left;
+        transform: translateX(-50%) rotate(90deg);
       `;
     } else {
       p.style.cssText = baseStyle + `
