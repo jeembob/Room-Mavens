@@ -35,7 +35,6 @@ function isCardSvg(svgElement) {
 }
 
 function processCard(svgElement) {
-  if (svgElement.dataset.cardInjected) return;
   if (!isCardSvg(svgElement)) return;
 
   const cardInfo = findCardName(svgElement);
@@ -45,6 +44,10 @@ function processCard(svgElement) {
   const newImageUrl = `${IMAGE_BASE_URL}/${character}/${cardInfo.filename}.jpeg`;
 
   const imageEl = svgElement.querySelector('image');
+  const currentHref = imageEl.getAttribute('href') || imageEl.getAttribute('xlink:href');
+  
+  if (currentHref === newImageUrl) return;
+
   imageEl.setAttribute('href', newImageUrl);
   if (imageEl.hasAttribute('xlink:href')) {
     imageEl.setAttribute('xlink:href', newImageUrl);
@@ -56,7 +59,6 @@ function processCard(svgElement) {
   }
 
   svgElement.style.outline = '3px solid magenta';
-  svgElement.dataset.cardInjected = 'true';
 }
 
 function processAllCards() {
@@ -72,7 +74,7 @@ function setupMutationObserver() {
       if (mutation.type === 'childList') {
         for (const node of mutation.addedNodes) {
           if (node.nodeType === Node.ELEMENT_NODE) {
-            if (node.tagName === 'svg') {
+            if (node.tagName === 'svg' || node.tagName === 'SVG') {
               processCard(node);
             }
             const nestedSvgs = node.querySelectorAll?.('svg');
@@ -85,7 +87,10 @@ function setupMutationObserver() {
         }
       } else if (mutation.type === 'attributes') {
         const target = mutation.target;
-        if (target.tagName === 'svg') {
+        if (target.tagName === 'image' || target.tagName === 'IMAGE') {
+          const svg = target.closest('svg');
+          if (svg) processCard(svg);
+        } else if (target.tagName === 'svg' || target.tagName === 'SVG') {
           processCard(target);
         }
       }
@@ -96,7 +101,7 @@ function setupMutationObserver() {
     childList: true,
     subtree: true,
     attributes: true,
-    attributeFilter: ['href', 'xlink:href']
+    attributeFilter: ['href', 'xlink:href', 'class']
   });
 }
 
