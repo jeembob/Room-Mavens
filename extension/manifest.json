@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Gloomhaven Card Injector",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Replaces placeholder card images on gloomhaven.smigiel.us with full card artwork",
   "permissions": ["storage"],
   "action": {
@@ -28,7 +28,7 @@
   ],
   "web_accessible_resources": [
     {
-      "resources": ["cards.json"],
+      "resources": ["cards.json", "itemcards.json"],
       "matches": ["https://gloomhaven.smigiel.us/*"]
     }
   ]

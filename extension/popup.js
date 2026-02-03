@@ -1,6 +1,5 @@
 const toggle = document.getElementById('toggle');
 const status = document.getElementById('status');
-const refreshBtn = document.getElementById('refresh');
 
 chrome.storage.local.get(['enabled'], (result) => {
   const enabled = result.enabled !== false;
@@ -19,14 +18,6 @@ toggle.addEventListener('change', () => {
         chrome.tabs.reload(tabs[0].id);
       }
     });
-  });
-});
-
-refreshBtn.addEventListener('click', () => {
-  chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
-    if (tabs[0]) {
-      chrome.tabs.reload(tabs[0].id);
-    }
   });
 });
 

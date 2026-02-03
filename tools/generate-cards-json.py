@@ -7,9 +7,9 @@ from pathlib import Path
 
 def generate_cards_manifest():
     script_dir = Path(__file__).parent
-    repo_root = script_dir.parent.parent
+    repo_root = script_dir.parent
     images_dir = repo_root / "images"
-    output_file = script_dir / "cards.json"
+    output_file = repo_root / "extension" / "cards.json"
     
     cards = {}
     
