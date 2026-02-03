@@ -12,7 +12,7 @@ function normalizeForMatch(name) {
     .replace(/[^\w\s-]/g, '')     // strip other punctuation
     .replace(/\s+/g, '-')         // spaces to hyphens
     .replace(/-+/g, '-')          // collapse multiple hyphens
-    .replace(/^-|-$/g, '');       // trim leading/trailing hyphens
+    .replace(/^-|-$/g, '');       // trim lea  ding/trailing hyphens
 }
 
 function levenshtein(a, b) {
