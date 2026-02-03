@@ -210,7 +210,7 @@ function createEquipSlotIcon(equipSlot, isRotated) {
       position: absolute;
       top: 50%;
       left: 5px;
-      transform: rotate(90deg) translateY(-50%);
+      transform: translateY(-50%) rotate(90deg);
       z-index: 10;
       pointer-events: none;
     `;
