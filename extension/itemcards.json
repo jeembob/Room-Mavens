@@ -1,1434 +1,1444 @@
-[
-  {
-    "name": "Weathered Boots",
-    "code": "1",
-    "cost": "15",
-    "equip_slot": "legs",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8639.image.webp",
-    "local_image": "images/Items/1_Weathered_Boots.webp"
-  },
-  {
-    "name": "Winged Shoes",
-    "code": "2",
-    "cost": "15",
-    "equip_slot": "legs",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8640.image.webp",
-    "local_image": "images/Items/2_Winged_Shoes.webp"
-  },
-  {
-    "name": "Hide Armor",
-    "code": "3",
-    "cost": "10",
-    "equip_slot": "body",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8641.image.webp",
-    "local_image": "images/Items/3_Hide_Armor.webp"
-  },
-  {
-    "name": "Leather Armor",
-    "code": "4",
-    "cost": "10",
-    "equip_slot": "body",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8642.image.webp",
-    "local_image": "images/Items/4_Leather_Armor.webp"
-  },
-  {
-    "name": "Scouting Lens",
-    "code": "5",
-    "cost": "10",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8643.image.webp",
-    "local_image": "images/Items/5_Scouting_Lens.webp"
-  },
-  {
-    "name": "Amulet of Life",
-    "code": "6",
-    "cost": "15",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8644.image.webp",
-    "local_image": "images/Items/6_Amulet_of_Life.webp"
-  },
-  {
-    "name": "Poison Dagger",
-    "code": "7",
-    "cost": "15",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8645.image.webp",
-    "local_image": "images/Items/7_Poison_Dagger.webp"
-  },
-  {
-    "name": "Heater Shield",
-    "code": "8",
-    "cost": "15",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8646.image.webp",
-    "local_image": "images/Items/8_Heater_Shield.webp"
-  },
-  {
-    "name": "Focusing Rod",
-    "code": "9",
-    "cost": "10",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8647.image.webp",
-    "local_image": "images/Items/9_Focusing_Rod.webp"
-  },
-  {
-    "name": "Simple Bow",
-    "code": "10",
-    "cost": "15",
-    "equip_slot": "two-hands",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8648.image.webp",
-    "local_image": "images/Items/10_Simple_Bow.webp"
-  },
-  {
-    "name": "Healing Potion",
-    "code": "11",
-    "cost": "10",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8649.image.webp",
-    "local_image": "images/Items/11_Healing_Potion.webp"
-  },
-  {
-    "name": "Stamina Potion",
-    "code": "12",
-    "cost": "10",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8650.image.webp",
-    "local_image": "images/Items/12_Stamina_Potion.webp"
-  },
-  {
-    "name": "Element Potion",
-    "code": "13",
-    "cost": "10",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8651.image.webp",
-    "local_image": "images/Items/13_Element_Potion.webp"
-  },
-  {
-    "name": "Studded Leather",
-    "code": "14",
-    "cost": "20",
-    "equip_slot": "body",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8652.image.webp",
-    "local_image": "images/Items/14_Studded_Leather.webp"
-  },
-  {
-    "name": "Comfortable Shoes",
-    "code": "15",
-    "cost": "20",
-    "equip_slot": "legs",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8653.image.webp",
-    "local_image": "images/Items/15_Comfortable_Shoes.webp"
-  },
-  {
-    "name": "Circlet of Elements",
-    "code": "16",
-    "cost": "20",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8654.image.webp",
-    "local_image": "images/Items/16_Circlet_of_Elements.webp"
-  },
-  {
-    "name": "Boots of Speed",
-    "code": "17",
-    "cost": "30",
-    "equip_slot": "legs",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8655.image.webp",
-    "local_image": "images/Items/17_Boots_of_Speed.webp"
-  },
-  {
-    "name": "Heavy Basinet",
-    "code": "18",
-    "cost": "15",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8656.image.webp",
-    "local_image": "images/Items/18_Heavy_Basinet.webp"
-  },
-  {
-    "name": "Warden's Robes",
-    "code": "19",
-    "cost": "30",
-    "equip_slot": "body",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8657.image.webp",
-    "local_image": "images/Items/19_Wardens_Robes.webp"
-  },
-  {
-    "name": "Hooked Chain",
-    "code": "20",
-    "cost": "20",
-    "equip_slot": "two-hands",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8658.image.webp",
-    "local_image": "images/Items/20_Hooked_Chain.webp"
-  },
-  {
-    "name": "Power Potion",
-    "code": "21",
-    "cost": "15",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8659.image.webp",
-    "local_image": "images/Items/21_Power_Potion.webp"
-  },
-  {
-    "name": "Iron Spear",
-    "code": "22",
-    "cost": "25",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8660.image.webp",
-    "local_image": "images/Items/22_Iron_Spear.webp"
-  },
-  {
-    "name": "Jagged Sword",
-    "code": "23",
-    "cost": "25",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8661.image.webp",
-    "local_image": "images/Items/23_Jagged_Sword.webp"
-  },
-  {
-    "name": "Black Knife",
-    "code": "24",
-    "cost": "25",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8662.image.webp",
-    "local_image": "images/Items/24_Black_Knife.webp"
-  },
-  {
-    "name": "Weighted Net",
-    "code": "25",
-    "cost": "20",
-    "equip_slot": "two-hands",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8663.image.webp",
-    "local_image": "images/Items/25_Weighted_Net.webp"
-  },
-  {
-    "name": "Eagle-Eye Goggles",
-    "code": "26",
-    "cost": "30",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8664.image.webp",
-    "local_image": "images/Items/26_Eagle-Eye_Goggles.webp"
-  },
-  {
-    "name": "Iron Helmet",
-    "code": "27",
-    "cost": "20",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8665.image.webp",
-    "local_image": "images/Items/27_Iron_Helmet.webp"
-  },
-  {
-    "name": "Chainmail",
-    "code": "28",
-    "cost": "25",
-    "equip_slot": "body",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8666.image.webp",
-    "local_image": "images/Items/28_Chainmail.webp"
-  },
-  {
-    "name": "Nimble Legguards",
-    "code": "29",
-    "cost": "20",
-    "equip_slot": "legs",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8667.image.webp",
-    "local_image": "images/Items/29_Nimble_Legguards.webp"
-  },
-  {
-    "name": "Armorbane Bow",
-    "code": "30",
-    "cost": "20",
-    "equip_slot": "two-hands",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8668.image.webp",
-    "local_image": "images/Items/30_Armorbane_Bow.webp"
-  },
-  {
-    "name": "Staff of Summoning",
-    "code": "31",
-    "cost": "30",
-    "equip_slot": "two-hands",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8669.image.webp",
-    "local_image": "images/Items/31_Staff_of_Summoning.webp"
-  },
-  {
-    "name": "Black Censer",
-    "code": "32",
-    "cost": "20",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8670.image.webp",
-    "local_image": "images/Items/32_Black_Censer.webp"
-  },
-  {
-    "name": "Second Skin",
-    "code": "33",
-    "cost": "25",
-    "equip_slot": "body",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8671.image.webp",
-    "local_image": "images/Items/33_Second_Skin.webp"
-  },
-  {
-    "name": "Battle Axe",
-    "code": "34",
-    "cost": "20",
-    "equip_slot": "two-hands",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8672.image.webp",
-    "local_image": "images/Items/34_Battle_Axe.webp"
-  },
-  {
-    "name": "Tower Shield",
-    "code": "35",
-    "cost": "30",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8673.image.webp",
-    "local_image": "images/Items/35_Tower_Shield.webp"
-  },
-  {
-    "name": "Moon Earring",
-    "code": "36",
-    "cost": "20",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8674.image.webp",
-    "local_image": "images/Items/36_Moon_Earring.webp"
-  },
-  {
-    "name": "Major Healing Potion",
-    "code": "37",
-    "cost": "25",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8675.image.webp",
-    "local_image": "images/Items/37_Major_Healing_Potion.webp"
-  },
-  {
-    "name": "Heavy Greaves",
-    "code": "38",
-    "cost": "25",
-    "equip_slot": "legs",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8676.image.webp",
-    "local_image": "images/Items/38_Heavy_Greaves.webp"
-  },
-  {
-    "name": "Ring of Skulls",
-    "code": "39",
-    "cost": "40",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8677.image.webp",
-    "local_image": "images/Items/39_Ring_of_Skulls.webp"
-  },
-  {
-    "name": "Shadow Armor",
-    "code": "40",
-    "cost": "25",
-    "equip_slot": "body",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8678.image.webp",
-    "local_image": "images/Items/40_Shadow_Armor.webp"
-  },
-  {
-    "name": "Kinetic Treads",
-    "code": "41",
-    "cost": "30",
-    "equip_slot": "legs",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8679.image.webp",
-    "local_image": "images/Items/41_Kinetic_Treads.webp"
-  },
-  {
-    "name": "Endurance Footwraps",
-    "code": "42",
-    "cost": "40",
-    "equip_slot": "legs",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8680.image.webp",
-    "local_image": "images/Items/42_Endurance_Footwraps.webp"
-  },
-  {
-    "name": "Hawk Helm",
-    "code": "43",
-    "cost": "20",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8681.image.webp",
-    "local_image": "images/Items/43_Hawk_Helm.webp"
-  },
-  {
-    "name": "Precision Bow",
-    "code": "44",
-    "cost": "40",
-    "equip_slot": "two-hands",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8682.image.webp",
-    "local_image": "images/Items/44_Precision_Bow.webp"
-  },
-  {
-    "name": "Major Element Potion",
-    "code": "45",
-    "cost": "20",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8683.image.webp",
-    "local_image": "images/Items/45_Major_Element_Potion.webp"
-  },
-  {
-    "name": "Light Targe",
-    "code": "46",
-    "cost": "30",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8684.image.webp",
-    "local_image": "images/Items/46_Light_Targe.webp"
-  },
-  {
-    "name": "Cloak of Pockets",
-    "code": "47",
-    "cost": "20",
-    "equip_slot": "body",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8685.image.webp",
-    "local_image": "images/Items/47_Cloak_of_Pockets.webp"
-  },
-  {
-    "name": "Staff of Elements",
-    "code": "48",
-    "cost": "30",
-    "equip_slot": "two-hands",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8686.image.webp",
-    "local_image": "images/Items/48_Staff_of_Elements.webp"
-  },
-  {
-    "name": "Horned Helm",
-    "code": "49",
-    "cost": "35",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8687.image.webp",
-    "local_image": "images/Items/49_Horned_Helm.webp"
-  },
-  {
-    "name": "Robes of the Oak",
-    "code": "50",
-    "cost": "30",
-    "equip_slot": "body",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8688.image.webp",
-    "local_image": "images/Items/50_Robes_of_the_Oak.webp"
-  },
-  {
-    "name": "Heavy Mace",
-    "code": "51",
-    "cost": "20",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8689.image.webp",
-    "local_image": "images/Items/51_Heavy_Mace.webp"
-  },
-  {
-    "name": "Sun Earring",
-    "code": "52",
-    "cost": "35",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8690.image.webp",
-    "local_image": "images/Items/52_Sun_Earring.webp"
-  },
-  {
-    "name": "Major Power Potion",
-    "code": "53",
-    "cost": "35",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8691.image.webp",
-    "local_image": "images/Items/53_Major_Power_Potion.webp"
-  },
-  {
-    "name": "Circlet of Sanctity",
-    "code": "54",
-    "cost": "45",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8692.image.webp",
-    "local_image": "images/Items/54_Circlet_of_Sanctity.webp"
-  },
-  {
-    "name": "Volatile Bomb",
-    "code": "55",
-    "cost": "40",
-    "equip_slot": "two-hands",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8693.image.webp",
-    "local_image": "images/Items/55_Volatile_Bomb.webp"
-  },
-  {
-    "name": "Steel Sabatons",
-    "code": "56",
-    "cost": "50",
-    "equip_slot": "legs",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8694.image.webp",
-    "local_image": "images/Items/56_Steel_Sabatons.webp"
-  },
-  {
-    "name": "Strategist's Ring",
-    "code": "57",
-    "cost": "30",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8695.image.webp",
-    "local_image": "images/Items/57_Strategists_Ring.webp"
-  },
-  {
-    "name": "Major Stamina Potion",
-    "code": "58",
-    "cost": "35",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8696.image.webp",
-    "local_image": "images/Items/58_Major_Stamina_Potion.webp"
-  },
-  {
-    "name": "Telescopic Lens",
-    "code": "59",
-    "cost": "35",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8697.image.webp",
-    "local_image": "images/Items/59_Telescopic_Lens.webp"
-  },
-  {
-    "name": "Staff of Eminence",
-    "code": "60",
-    "cost": "50",
-    "equip_slot": "two-hands",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8698.image.webp",
-    "local_image": "images/Items/60_Staff_of_Eminence.webp"
-  },
-  {
-    "name": "War Hammer",
-    "code": "61",
-    "cost": "30",
-    "equip_slot": "two-hands",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8699.image.webp",
-    "local_image": "images/Items/61_War_Hammer.webp"
-  },
-  {
-    "name": "Mask of Terror",
-    "code": "62",
-    "cost": "50",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8700.image.webp",
-    "local_image": "images/Items/62_Mask_of_Terror.webp"
-  },
-  {
-    "name": "Star Earring",
-    "code": "63",
-    "cost": "50",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8701.image.webp",
-    "local_image": "images/Items/63_Star_Earring.webp"
-  },
-  {
-    "name": "Empowering Talisman",
-    "code": "64",
-    "cost": "40",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8702.image.webp",
-    "local_image": "images/Items/64_Empowering_Talisman.webp"
-  },
-  {
-    "name": "Long Spear",
-    "code": "65",
-    "cost": "40",
-    "equip_slot": "two-hands",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8703.image.webp",
-    "local_image": "images/Items/65_Long_Spear.webp"
-  },
-  {
-    "name": "Cloak of Invisibility",
-    "code": "66",
-    "cost": "30",
-    "equip_slot": "body",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8704.image.webp",
-    "local_image": "images/Items/66_Cloak_of_Invisibility.webp"
-  },
-  {
-    "name": "Spiked Shoes",
-    "code": "67",
-    "cost": "40",
-    "equip_slot": "legs",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8705.image.webp",
-    "local_image": "images/Items/67_Spiked_Shoes.webp"
-  },
-  {
-    "name": "Ring of Haste",
-    "code": "68",
-    "cost": "40",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8706.image.webp",
-    "local_image": "images/Items/68_Ring_of_Haste.webp"
-  },
-  {
-    "name": "Platemail",
-    "code": "69",
-    "cost": "35",
-    "equip_slot": "body",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8707.image.webp",
-    "local_image": "images/Items/69_Platemail.webp"
-  },
-  {
-    "name": "Standard Rations",
-    "code": "70",
-    "cost": "20",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8708.image.webp",
-    "local_image": "images/Items/70_Standard_Rations.webp"
-  },
-  {
-    "name": "Mastercraft Crossbow",
-    "code": "71",
-    "cost": "35",
-    "equip_slot": "two-hands",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8709.image.webp",
-    "local_image": "images/Items/71_Mastercraft_Crossbow.webp"
-  },
-  {
-    "name": "Commander's Cap",
-    "code": "72",
-    "cost": "30",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8710.image.webp",
-    "local_image": "images/Items/72_Commanders_Cap.webp"
-  },
-  {
-    "name": "Mantle of Summoning",
-    "code": "73",
-    "cost": "35",
-    "equip_slot": "body",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8711.image.webp",
-    "local_image": "images/Items/73_Mantle_of_Summoning.webp"
-  },
-  {
-    "name": "Concealed Dagger",
-    "code": "74",
-    "cost": "40",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8712.image.webp",
-    "local_image": "images/Items/74_Concealed_Dagger.webp"
-  },
-  {
-    "name": "Opulent Hood",
-    "code": "75",
-    "cost": "40",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8713.image.webp",
-    "local_image": "images/Items/75_Opulent_Hood.webp"
-  },
-  {
-    "name": "Merchant's Insignia",
-    "code": "76",
-    "cost": "0",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8714.image.webp",
-    "local_image": "images/Items/76_Merchants_Insignia.webp"
-  },
-  {
-    "name": "Robes of Evocation",
-    "code": "77",
-    "cost": "35",
-    "equip_slot": "body",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8715.image.webp",
-    "local_image": "images/Items/77_Robes_of_Evocation.webp"
-  },
-  {
-    "name": "Reaping Scythe",
-    "code": "78",
-    "cost": "30",
-    "equip_slot": "two-hands",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8716.image.webp",
-    "local_image": "images/Items/78_Reaping_Scythe.webp"
-  },
-  {
-    "name": "Doom Powder",
-    "code": "79",
-    "cost": "35",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8717.image.webp",
-    "local_image": "images/Items/79_Doom_Powder.webp"
-  },
-  {
-    "name": "Demonic Skull",
-    "code": "80",
-    "cost": "50",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8718.image.webp",
-    "local_image": "images/Items/80_Demonic_Skull.webp"
-  },
-  {
-    "name": "Frigid Blade",
-    "code": "81",
-    "cost": "25",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8719.image.webp",
-    "local_image": "images/Items/81_Frigid_Blade.webp"
-  },
-  {
-    "name": "Storm Blade",
-    "code": "82",
-    "cost": "25",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8720.image.webp",
-    "local_image": "images/Items/82_Storm_Blade.webp"
-  },
-  {
-    "name": "Inferno Blade",
-    "code": "83",
-    "cost": "25",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8721.image.webp",
-    "local_image": "images/Items/83_Inferno_Blade.webp"
-  },
-  {
-    "name": "Tremor Blade",
-    "code": "84",
-    "cost": "25",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8722.image.webp",
-    "local_image": "images/Items/84_Tremor_Blade.webp"
-  },
-  {
-    "name": "Brilliant Blade",
-    "code": "85",
-    "cost": "25",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8723.image.webp",
-    "local_image": "images/Items/85_Brilliant_Blade.webp"
-  },
-  {
-    "name": "Night Blade",
-    "code": "86",
-    "cost": "25",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8724.image.webp",
-    "local_image": "images/Items/86_Night_Blade.webp"
-  },
-  {
-    "name": "Versatile Dagger",
-    "code": "87",
-    "cost": "25",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8725.image.webp",
-    "local_image": "images/Items/87_Versatile_Dagger.webp"
-  },
-  {
-    "name": "Spiked Shield",
-    "code": "88",
-    "cost": "35",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8726.image.webp",
-    "local_image": "images/Items/88_Spiked_Shield.webp"
-  },
-  {
-    "name": "Swordedge Armor",
-    "code": "89",
-    "cost": "40",
-    "equip_slot": "body",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8727.image.webp",
-    "local_image": "images/Items/89_Swordedge_Armor.webp"
-  },
-  {
-    "name": "Blinking Cape",
-    "code": "90",
-    "cost": "35",
-    "equip_slot": "body",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8728.image.webp",
-    "local_image": "images/Items/90_Blinking_Cape.webp"
-  },
-  {
-    "name": "Boots of Quickness",
-    "code": "91",
-    "cost": "45",
-    "equip_slot": "legs",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8729.image.webp",
-    "local_image": "images/Items/91_Boots_of_Quickness.webp"
-  },
-  {
-    "name": "Stun Powder",
-    "code": "92",
-    "cost": "20",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8730.image.webp",
-    "local_image": "images/Items/92_Stun_Powder.webp"
-  },
-  {
-    "name": "Scroll of Ferocity",
-    "code": "93",
-    "cost": "20",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8731.image.webp",
-    "local_image": "images/Items/93_Scroll_of_Ferocity.webp"
-  },
-  {
-    "name": "Scroll of Healing",
-    "code": "94",
-    "cost": "15",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8732.image.webp",
-    "local_image": "images/Items/94_Scroll_of_Healing.webp"
-  },
-  {
-    "name": "Scroll of Shielding",
-    "code": "95",
-    "cost": "15",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8733.image.webp",
-    "local_image": "images/Items/95_Scroll_of_Shielding.webp"
-  },
-  {
-    "name": "Scroll of Swiftness",
-    "code": "96",
-    "cost": "10",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8734.image.webp",
-    "local_image": "images/Items/96_Scroll_of_Swiftness.webp"
-  },
-  {
-    "name": "Shoes of Happiness",
-    "code": "97",
-    "cost": "20",
-    "equip_slot": "legs",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8735.image.webp",
-    "local_image": "images/Items/97_Shoes_of_Happiness.webp"
-  },
-  {
-    "name": "Cloak of Phasing",
-    "code": "98",
-    "cost": "20",
-    "equip_slot": "body",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8736.image.webp",
-    "local_image": "images/Items/98_Cloak_of_Phasing.webp"
-  },
-  {
-    "name": "Unstable Explosives",
-    "code": "99",
-    "cost": "30",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8737.image.webp",
-    "local_image": "images/Items/99_Unstable_Explosives.webp"
-  },
-  {
-    "name": "Charged Boots",
-    "code": "100",
-    "cost": "30",
-    "equip_slot": "legs",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8738.image.webp",
-    "local_image": "images/Items/100_Charged_Boots.webp"
-  },
-  {
-    "name": "Cure Potion",
-    "code": "101",
-    "cost": "10",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8739.image.webp",
-    "local_image": "images/Items/101_Cure_Potion.webp"
-  },
-  {
-    "name": "Steel Ring",
-    "code": "102",
-    "cost": "15",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8740.image.webp",
-    "local_image": "images/Items/102_Steel_Ring.webp"
-  },
-  {
-    "name": "Ranger's Hood",
-    "code": "103",
-    "cost": "25",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8741.image.webp",
-    "local_image": "images/Items/103_Rangers_Hood.webp"
-  },
-  {
-    "name": "Warding Rod",
-    "code": "104",
-    "cost": "20",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8742.image.webp",
-    "local_image": "images/Items/104_Warding_Rod.webp"
-  },
-  {
-    "name": "Lucky Eye",
-    "code": "105",
-    "cost": "40",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8743.image.webp",
-    "local_image": "images/Items/105_Lucky_Eye.webp"
-  },
-  {
-    "name": "Steam Armor",
-    "code": "106",
-    "cost": "30",
-    "equip_slot": "body",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8744.image.webp",
-    "local_image": "images/Items/106_Steam_Armor.webp"
-  },
-  {
-    "name": "Necklace of Teeth",
-    "code": "107",
-    "cost": "30",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8745.image.webp",
-    "local_image": "images/Items/107_Necklace_of_Teeth.webp"
-  },
-  {
-    "name": "Thief's Hood",
-    "code": "108",
-    "cost": "20",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8746.image.webp",
-    "local_image": "images/Items/108_Thiefs_Hood.webp"
-  },
-  {
-    "name": "Ancient Drill",
-    "code": "109",
-    "cost": "30",
-    "equip_slot": "two-hands",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8747.image.webp",
-    "local_image": "images/Items/109_Ancient_Drill.webp"
-  },
-  {
-    "name": "Fueled Falchion",
-    "code": "110",
-    "cost": "30",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8748.image.webp",
-    "local_image": "images/Items/110_Fueled_Falchion.webp"
-  },
-  {
-    "name": "Skull of Hatred",
-    "code": "111",
-    "cost": "40",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8749.image.webp",
-    "local_image": "images/Items/111_Skull_of_Hatred.webp"
-  },
-  {
-    "name": "Curious Gear",
-    "code": "112",
-    "cost": "20",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8750.image.webp",
-    "local_image": "images/Items/112_Curious_Gear.webp"
-  },
-  {
-    "name": "Black Card",
-    "code": "113",
-    "cost": "20",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8751.image.webp",
-    "local_image": "images/Items/113_Black_Card.webp"
-  },
-  {
-    "name": "Gust Striders",
-    "code": "114",
-    "cost": "30",
-    "equip_slot": "legs",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8752.image.webp",
-    "local_image": "images/Items/114_Gust_Striders.webp"
-  },
-  {
-    "name": "Rod of Transference",
-    "code": "115",
-    "cost": "40",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8753.image.webp",
-    "local_image": "images/Items/115_Rod_of_Transference.webp"
-  },
-  {
-    "name": "Fated Verses",
-    "code": "116",
-    "cost": "30",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8754.image.webp",
-    "local_image": "images/Items/116_Fated_Verses.webp"
-  },
-  {
-    "name": "Dawnblade",
-    "code": "117",
-    "cost": "25",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8755.image.webp",
-    "local_image": "images/Items/117_Dawnblade.webp"
-  },
-  {
-    "name": "Duskbrand",
-    "code": "118",
-    "cost": "25",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8756.image.webp",
-    "local_image": "images/Items/118_Duskbrand.webp"
-  },
-  {
-    "name": "Drakescale Boots",
-    "code": "119",
-    "cost": "25",
-    "equip_slot": "legs",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8757.image.webp",
-    "local_image": "images/Items/119_Drakescale_Boots.webp"
-  },
-  {
-    "name": "Drakescale Armor",
-    "code": "120",
-    "cost": "20",
-    "equip_slot": "body",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8758.image.webp",
-    "local_image": "images/Items/120_Drakescale_Armor.webp"
-  },
-  {
-    "name": "Drakescale Helm",
-    "code": "121",
-    "cost": "35",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8759.image.webp",
-    "local_image": "images/Items/121_Drakescale_Helm.webp"
-  },
-  {
-    "name": "Frost Beetle Lantern",
-    "code": "122",
-    "cost": "15",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8760.image.webp",
-    "local_image": "images/Items/122_Frost_Beetle_Lantern.webp"
-  },
-  {
-    "name": "Storm Beetle Lantern",
-    "code": "123",
-    "cost": "15",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8761.image.webp",
-    "local_image": "images/Items/123_Storm_Beetle_Lantern.webp"
-  },
-  {
-    "name": "Ignition Beetle Lantern",
-    "code": "124",
-    "cost": "15",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8762.image.webp",
-    "local_image": "images/Items/124_Ignition_Beetle_Lantern.webp"
-  },
-  {
-    "name": "Tremor Beetle Lantern",
-    "code": "125",
-    "cost": "15",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8763.image.webp",
-    "local_image": "images/Items/125_Tremor_Beetle_Lantern.webp"
-  },
-  {
-    "name": "Brilliant Beetle Lantern",
-    "code": "126",
-    "cost": "15",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8764.image.webp",
-    "local_image": "images/Items/126_Brilliant_Beetle_Lantern.webp"
-  },
-  {
-    "name": "Twilight Beetle Lantern",
-    "code": "127",
-    "cost": "15",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8765.image.webp",
-    "local_image": "images/Items/127_Twilight_Beetle_Lantern.webp"
-  },
-  {
-    "name": "Pendant of Dark Pacts",
-    "code": "128",
-    "cost": "40",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8766.image.webp",
-    "local_image": "images/Items/128_Pendant_of_Dark_Pacts.webp"
-  },
-  {
-    "name": "Helm of the Mountain",
-    "code": "129",
-    "cost": "20",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8767.image.webp",
-    "local_image": "images/Items/129_Helm_of_the_Mountain.webp"
-  },
-  {
-    "name": "Mountain Hammer",
-    "code": "130",
-    "cost": "40",
-    "equip_slot": "two-hands",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8768.image.webp",
-    "local_image": "images/Items/130_Mountain_Hammer.webp"
-  },
-  {
-    "name": "Wave Crest",
-    "code": "131",
-    "cost": "20",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8769.image.webp",
-    "local_image": "images/Items/131_Wave_Crest.webp"
-  },
-  {
-    "name": "Doomed Compass",
-    "code": "132",
-    "cost": "50",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8770.image.webp",
-    "local_image": "images/Items/132_Doomed_Compass.webp"
-  },
-  {
-    "name": "Heart of the Betrayer",
-    "code": "133",
-    "cost": "50",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8771.image.webp",
-    "local_image": "images/Items/133_Heart_of_the_Betrayer.webp"
-  },
-  {
-    "name": "Power Core",
-    "code": "134",
-    "cost": "75",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8772.image.webp",
-    "local_image": "images/Items/134_Power_Core.webp"
-  },
-  {
-    "name": "Resonant Crystal",
-    "code": "135",
-    "cost": "20",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8773.image.webp",
-    "local_image": "images/Items/135_Resonant_Crystal.webp"
-  },
-  {
-    "name": "Helix Ring",
-    "code": "136",
-    "cost": "40",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8774.image.webp",
-    "local_image": "images/Items/136_Helix_Ring.webp"
-  },
-  {
-    "name": "Flea-Bitten Shawl",
-    "code": "137",
-    "cost": "10",
-    "equip_slot": "body",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8775.image.webp",
-    "local_image": "images/Items/137_Flea-Bitten_Shawl.webp"
-  },
-  {
-    "name": "Bloody Axe",
-    "code": "138",
-    "cost": "30",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8776.image.webp",
-    "local_image": "images/Items/138_Bloody_Axe.webp"
-  },
-  {
-    "name": "Otherworldly Scepter",
-    "code": "139",
-    "cost": "20",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8777.image.webp",
-    "local_image": "images/Items/139_Otherworldly_Scepter.webp"
-  },
-  {
-    "name": "Remote Attack Spider",
-    "code": "140",
-    "cost": "20",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8778.image.webp",
-    "local_image": "images/Items/140_Remote_Attack_Spider.webp"
-  },
-  {
-    "name": "Remote Aid Spider",
-    "code": "141",
-    "cost": "15",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8779.image.webp",
-    "local_image": "images/Items/141_Remote_Aid_Spider.webp"
-  },
-  {
-    "name": "Magma Waders",
-    "code": "142",
-    "cost": "40",
-    "equip_slot": "legs",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8780.image.webp",
-    "local_image": "images/Items/142_Magma_Waders.webp"
-  },
-  {
-    "name": "Boots of Bracing",
-    "code": "143",
-    "cost": "20",
-    "equip_slot": "legs",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8781.image.webp",
-    "local_image": "images/Items/143_Boots_of_Bracing.webp"
-  },
-  {
-    "name": "Temporal Matrix",
-    "code": "144",
-    "cost": "30",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8782.image.webp",
-    "local_image": "images/Items/144_Temporal_Matrix.webp"
-  },
-  {
-    "name": "Harrow-Hook",
-    "code": "145",
-    "cost": "50",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8783.image.webp",
-    "local_image": "images/Items/145_Harrow-Hook.webp"
-  },
-  {
-    "name": "Amberhollow",
-    "code": "146",
-    "cost": "0",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8784.image.webp",
-    "local_image": "images/Items/146_Amberhollow.webp"
-  },
-  {
-    "name": "Scepter of Xorn",
-    "code": "147",
-    "cost": "0",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8785.image.webp",
-    "local_image": "images/Items/147_Scepter_of_Xorn.webp"
-  },
-  {
-    "name": "Shield of the Righteous",
-    "code": "148",
-    "cost": "30",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8786.image.webp",
-    "local_image": "images/Items/148_Shield_of_the_Righteous.webp"
-  },
-  {
-    "name": "Aesther Spyglass",
-    "code": "149",
-    "cost": "0",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8787.image.webp",
-    "local_image": "images/Items/149_Aesther_Spyglass.webp"
-  },
-  {
-    "name": "Experimental Armor",
-    "code": "150",
-    "cost": "0",
-    "equip_slot": "body",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8788.image.webp",
-    "local_image": "images/Items/150_Experimental_Armor.webp"
-  },
-  {
-    "name": "Sword of the Sands",
-    "code": "151",
-    "cost": "20",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8789.image.webp",
-    "local_image": "images/Items/151_Sword_of_the_Sands.webp"
-  },
-  {
-    "name": "Ruby Talisman",
-    "code": "152",
-    "cost": "20",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8790.image.webp",
-    "local_image": "images/Items/152_Ruby_Talisman.webp"
-  },
-  {
-    "name": "Hooked Shield",
-    "code": "153",
-    "cost": "0",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8791.image.webp",
-    "local_image": "images/Items/153_Hooked_Shield.webp"
-  },
-  {
-    "name": "Focusing Ray",
-    "code": "154",
-    "cost": "0",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8792.image.webp",
-    "local_image": "images/Items/154_Focusing_Ray.webp"
-  },
-  {
-    "name": "Etheric Elixir",
-    "code": "155",
-    "cost": "0",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8793.image.webp",
-    "local_image": "images/Items/155_Etheric_Elixir.webp"
-  },
-  {
-    "name": "Silent Stiletto",
-    "code": "156",
-    "cost": "0",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8794.image.webp",
-    "local_image": "images/Items/156_Silent_Stiletto.webp"
-  },
-  {
-    "name": "Stone Charm",
-    "code": "157",
-    "cost": "0",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8795.image.webp",
-    "local_image": "images/Items/157_Stone_Charm.webp"
-  },
-  {
-    "name": "Psyschic Knife",
-    "code": "158",
-    "cost": "0",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8796.image.webp",
-    "local_image": "images/Items/158_Psyschic_Knife.webp"
-  },
-  {
-    "name": "Insignia of the Divine",
-    "code": "159",
-    "cost": "0",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8797.image.webp",
-    "local_image": "images/Items/159_Insignia_of_the_Divine.webp"
-  },
-  {
-    "name": "Utility Belt",
-    "code": "160",
-    "cost": "0",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8798.image.webp",
-    "local_image": "images/Items/160_Utility_Belt.webp"
-  },
-  {
-    "name": "Phasing Idol",
-    "code": "161",
-    "cost": "0",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8799.image.webp",
-    "local_image": "images/Items/161_Phasing_Idol.webp"
-  },
-  {
-    "name": "The Night's Caress",
-    "code": "162",
-    "cost": "0",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8800.image.webp",
-    "local_image": "images/Items/162_The_Nights_Caress.webp"
-  },
-  {
-    "name": "Pendant of the Plague",
-    "code": "163",
-    "cost": "0",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8801.image.webp",
-    "local_image": "images/Items/163_Pendant_of_the_Plague.webp"
-  },
-  {
-    "name": "Mask of Death",
-    "code": "164",
-    "cost": "0",
-    "equip_slot": null,
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8802.image.webp",
-    "local_image": "images/Items/164_Mask_of_Death.webp"
-  },
-  {
-    "name": "Master's Lute",
-    "code": "165",
-    "cost": "0",
-    "equip_slot": "two-hands",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8803.image.webp",
-    "local_image": "images/Items/165_Masters_Lute.webp"
-  },
-  {
-    "name": "Cloak of the Hunter",
-    "code": "166",
-    "cost": "0",
-    "equip_slot": "body",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8804.image.webp",
-    "local_image": "images/Items/166_Cloak_of_the_Hunter.webp"
-  },
-  {
-    "name": "Doctor's Coat",
-    "code": "167",
-    "cost": "0",
-    "equip_slot": "body",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8805.image.webp",
-    "local_image": "images/Items/167_Doctors_Coat.webp"
-  },
-  {
-    "name": "Elemental Vest",
-    "code": "168",
-    "cost": "0",
-    "equip_slot": "body",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8806.image.webp",
-    "local_image": "images/Items/168_Elemental_Vest.webp"
-  },
-  {
-    "name": "Staff of Command",
-    "code": "169",
-    "cost": "0",
-    "equip_slot": "two-hands",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8807.image.webp",
-    "local_image": "images/Items/169_Staff_of_Command.webp"
-  },
-  {
-    "name": "Crawling Carapace",
-    "code": "170",
-    "cost": "0",
-    "equip_slot": "body",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8808.image.webp",
-    "local_image": "images/Items/170_Crawling_Carapace.webp"
-  },
-  {
-    "name": "Sharpened Dirk",
-    "code": "Q1",
-    "cost": "0",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8809.image.webp",
-    "local_image": "images/Items/Q1_Sharpened_Dirk.webp"
-  },
-  {
-    "name": "Sturdy Spear",
-    "code": "Q2",
-    "cost": "0",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8810.image.webp",
-    "local_image": "images/Items/Q2_Sturdy_Spear.webp"
-  },
-  {
-    "name": "Scroll of Embers",
-    "code": "Q3",
-    "cost": "0",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8811.image.webp",
-    "local_image": "images/Items/Q3_Scroll_of_Embers.webp"
-  },
-  {
-    "name": "Weighted Bolas",
-    "code": "Q4",
-    "cost": "0",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8812.image.webp",
-    "local_image": "images/Items/Q4_Weighted_Bolas.webp"
-  },
-  {
-    "name": "Scroll of Relocation",
-    "code": "Q5",
-    "cost": "0",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8813.image.webp",
-    "local_image": "images/Items/Q5_Scroll_of_Relocation.webp"
-  },
-  {
-    "name": "Corrosive Coating",
-    "code": "Q6",
-    "cost": "0",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8814.image.webp",
-    "local_image": "images/Items/Q6_Corrosive_Coating.webp"
-  },
-  {
-    "name": "Iron Plate",
-    "code": "Q7",
-    "cost": "0",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8815.image.webp",
-    "local_image": "images/Items/Q7_Iron_Plate.webp"
-  },
-  {
-    "name": "Barbed Strip",
-    "code": "Q8",
-    "cost": "0",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8816.image.webp",
-    "local_image": "images/Items/Q8_Barbed_Strip.webp"
-  },
-  {
-    "name": "Scroll of Foresight",
-    "code": "Q9",
-    "cost": "0",
-    "equip_slot": "small-item",
-    "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8817.image.webp",
-    "local_image": "images/Items/Q9_Scroll_of_Foresight.webp"
-  }
-]
+{
+  "equip_slot_icons": [
+    "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-28.35 0 485.56 485.56\">\n  <defs>\n    <mask id=\"legs\" fill=\"#000\">\n      <rect width=\"100%\" height=\"100%\" fill=\"#fff\"></rect>\n      <path d=\"m220.74 93.9-.6 3.86c-.95 6.1-1.91 12.34-2.88 18.63-.2 1.28-.4 2.56-.62 3.85H131.9a13.17 13.17 0 1 1 0-26.34zm-6.98 44.65c-.17 1.16-.35 2.31-.54 3.46-1 6.34-2 12.58-2.88 18.63-.22 1.43-.43 2.85-.65 4.25H131.9a13.17 13.17 0 1 1 0-26.34zm-6.83 44.64c-.27 1.84-.54 3.64-.79 5.4-1 6.92-1.86 13.21-2.55 18.64-.1.79-.2 1.55-.29 2.3h-65.59a13.17 13.17 0 0 1 0-26.34zm5.5 70.98h-68.9a13.17 13.17 0 0 1 0-26.34h58.36a28.59 28.59 0 0 0 .73 3.85c1.36 5.16 4.13 11.55 7.79 18.63.66 1.27 1.34 2.56 2 3.86\"></path>\n    </mask>\n  </defs>\n  <g mask=\"url(#legs)\">\n    <path d=\"M428.86 405.21c-87.35 85-193.32 73.36-193.32 73.36s0-5.81-3.49-16.3c-22.13-4.66-75.7-1.16-81.52-1.16s-17.47 18.63-21 24.45c-15.13 0-103.65-25.62-117.62-43.09-7-22.13 15.14-152.56 27.95-211.95C-22.99 61.65 7.29 12.78 7.29 12.78c64-21 101.31-12.82 138.58 1.16s80.35 5.82 83.85 9.31c1.44 1.45-3.13 32.87-9 70.68l-.6 3.86c-.95 6.1-1.91 12.34-2.88 18.63-.2 1.28-.4 2.56-.62 3.85-1 6.11-1.92 12.25-2.88 18.31-.17 1.16-.35 2.31-.54 3.46-1 6.34-2 12.58-2.88 18.63-.22 1.43-.43 2.85-.65 4.25-1 6.38-1.9 12.52-2.76 18.3-.27 1.84-.54 3.64-.79 5.4-1 6.92-1.86 13.21-2.55 18.64-.1.79-.2 1.55-.29 2.3a163.08 163.08 0 0 0-1.53 16.33 17.31 17.31 0 0 0 .12 2 27.21 27.21 0 0 0 .74 3.85c1.35 5.16 4.12 11.55 7.78 18.63.66 1.27 1.34 2.56 2 3.86 15.65 28.81 43.39 66.23 47.53 75.34 74.54-1.16 111.8 17.47 111.8 17.47l33.77-7s22.14 15.14 23.3 65.22\"></path>\n  </g>\n</svg>",
+    "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 -6.805 499.17 499.17\">\n  <defs>\n    <mask id=\"body\" fill=\"#000\">\n      <rect width=\"100%\" height=\"100%\" fill=\"#fff\"></rect>\n      <path d=\"M135.02 237.22c-8.49 0-18.23-.76-18.23-6.7 0-3.65 2.6-5.92 53.62-25.81 8.76-3.42 16.42-6.41 20.74-8.26.76-1.95 1.75-4.54 2.92-7.58 22.79-59.5 25.74-62.27 29.37-62.27 1.19 0 2.79.56 3.72 3.22 3.75 10.86 3.25 74.69-15.5 89.42-14.18 11.14-54.19 18-76.64 18z\"></path>\n      <path d=\"M223.44 129.6c4.09 0 5.34 72.38-13.64 87.28-13.48 10.6-52.83 17.34-74.78 17.34-9.12 0-15.23-1.16-15.23-3.7 0-4.09 60.12-25.77 73.71-31.82 5.13-13 25.85-69.1 29.94-69.1m0-6c-4.56 0-7 4.09-9.88 9.88-2 3.9-4.35 9.25-7.33 16.38-5.27 12.63-11.1 27.86-15 37.93l-2.45 6.39c-4.42 1.85-11.5 4.61-19.49 7.73-11.33 4.42-24.18 9.42-34.4 13.77-5.68 2.42-9.92 4.36-13 5.94-3.65 1.89-8.18 4.24-8.18 8.9 0 2.48 1.15 6.9 8.86 8.65a58.05 58.05 0 0 0 12.37 1.05c22.4 0 63.23-6.63 78.49-18.62 11.19-8.79 15.6-31.37 17.33-48.77 1.76-17.79 1.39-37.53-.85-44-1.64-4.73-5.12-5.24-6.55-5.24m84.98 202.93c-13.93 0-44-4-50.42-13.13a55.91 55.91 0 0 1-7.34-13.41 55.76 55.76 0 0 1-7.35 13.43c-6.38 9.14-36.47 13.11-50.41 13.11a41.58 41.58 0 0 1-8.13-.63c-4.36-.9-5.28-3-5.28-4.67 0-3.15 3-4.64 17.17-11.18 8.76-4.05 19.66-9.08 26.75-13.82s11.61-17.5 15.16-27.72 5.94-17.11 11.08-17.11h2c5.14 0 7.5 6.82 11.09 17.15s7.94 22.9 15.09 27.68 18 9.75 26.76 13.8c14.21 6.55 17.21 8.05 17.21 11.2 0 4.65-6.44 5.3-13.41 5.3\"></path>\n      <path d=\"M251.58 254.39c6.82 0 10.23 34.78 24.52 44.33s42.63 19.77 42.63 22.5c0 1.57-4.22 2.3-10.41 2.3-15.35 0-42.83-4.5-48-11.85-5.45-7.69-8.4-14.09-9.76-24.73-1.42 10.64-4.37 17-9.82 24.73-5.14 7.35-32.61 11.85-48 11.85-6.18 0-10.41-.73-10.41-2.3 0-2.73 28.29-13 42.58-22.5s17.76-44.33 24.58-44.33h2m0-6h-2c-5.78 0-8.62 5.87-9.56 7.8a108.6 108.6 0 0 0-4.35 11.33c-3.23 9.27-7.64 22-14 26.2-6.9 4.61-17.69 9.59-26.35 13.59-4.45 2.06-8.3 3.83-11.2 5.35-3.44 1.79-7.71 4-7.71 8.56 0 1.81.75 6.18 7.67 7.61a44.55 44.55 0 0 0 8.74.69 148.32 148.32 0 0 0 29.09-3.31c18.9-4.09 22.58-9.37 23.8-11.1a70.61 70.61 0 0 0 4.87-7.77 70.71 70.71 0 0 0 4.9 7.8c1.18 1.7 4.87 7 23.77 11.07a148.3 148.3 0 0 0 29.08 3.31 44.41 44.41 0 0 0 8.74-.69c6.93-1.43 7.67-5.8 7.67-7.61 0-4.54-4.28-6.77-7.71-8.57-2.92-1.52-6.78-3.3-11.24-5.36-8.67-4-19.44-9-26.36-13.57-6.31-4.21-10.71-16.9-13.92-26.17a112.17 112.17 0 0 0-4.36-11.35c-.93-1.93-3.78-7.81-9.56-7.81m56.91 173.83c-13.94 0-44.06-4-50.48-13.11a55.85 55.85 0 0 1-7.35-13.42 55.76 55.76 0 0 1-7.35 13.43c-6.41 9.14-36.53 13.1-50.47 13.1a42 42 0 0 1-8.09-.62c-4.34-.9-5.26-3-5.26-4.67 0-3.15 3-4.64 17.17-11.18 8.76-4.05 19.66-9.08 26.75-13.82s11.61-17.5 15.16-27.71 5.95-17.12 11.08-17.12h2c5.14 0 7.5 6.82 11.09 17.15s7.94 22.91 15.1 27.68 18 9.76 26.75 13.8c14.21 6.55 17.21 8.05 17.21 11.2 0 4.65-6.41 5.29-13.34 5.29\"></path>\n      <path d=\"M251.58 350.1c6.82 0 10.23 34.78 24.52 44.33s42.63 19.77 42.63 22.5c0 1.56-4.19 2.29-10.34 2.29-15.35 0-42.89-4.51-48-11.84-5.45-7.69-8.4-14.09-9.76-24.73-1.42 10.64-4.37 17-9.82 24.73-5.14 7.33-32.68 11.84-48 11.84-6.15 0-10.35-.73-10.35-2.29 0-2.73 28.29-12.95 42.58-22.5s17.76-44.33 24.58-44.33h2m0-6h-2c-5.78 0-8.62 5.87-9.56 7.8a110.38 110.38 0 0 0-4.35 11.33c-3.23 9.28-7.64 22-14 26.2-6.9 4.61-17.69 9.6-26.35 13.6-4.45 2.05-8.3 3.83-11.2 5.34-3.44 1.8-7.71 4-7.71 8.56 0 1.81.75 6.18 7.65 7.61a45 45 0 0 0 8.7.68 148.93 148.93 0 0 0 29.11-3.31c18.92-4.09 22.61-9.35 23.83-11.08a72.37 72.37 0 0 0 4.88-7.78 70.83 70.83 0 0 0 4.9 7.81c1.19 1.7 4.89 7 23.81 11.05a148.85 148.85 0 0 0 29.11 3.31 45.07 45.07 0 0 0 8.7-.68c6.9-1.43 7.64-5.8 7.64-7.61 0-4.54-4.28-6.77-7.71-8.56-2.92-1.52-6.78-3.3-11.24-5.37-8.67-4-19.44-9-26.36-13.57-6.31-4.21-10.71-16.9-13.92-26.16a111.51 111.51 0 0 0-4.36-11.36c-.93-1.93-3.78-7.81-9.56-7.81m114.53-106.88c-22.45 0-62.46-6.84-76.64-18-18.75-14.73-19.25-78.56-15.5-89.42.92-2.66 2.53-3.22 3.72-3.22 3.63 0 6.58 2.77 29.37 62.27 1.16 3 2.16 5.64 2.91 7.58 4.32 1.85 12 4.84 20.74 8.26 51 19.89 53.63 22.16 53.63 25.81 0 5.94-9.75 6.7-18.23 6.7\"></path>\n      <path d=\"M277.74 129.6c4.09 0 24.81 56.05 29.94 69.1 13.59 6.05 73.71 27.73 73.71 31.82 0 2.54-6.12 3.7-15.23 3.7-21.95 0-61.3-6.74-74.78-17.34-19-14.9-17.74-87.28-13.64-87.28m0-6c-1.43 0-4.92.51-6.55 5.24-2.24 6.46-2.62 26.2-.85 44 1.73 17.4 6.14 40 17.33 48.77 15.26 12 56.09 18.62 78.49 18.62a57.89 57.89 0 0 0 12.36-1.05c7.72-1.75 8.87-6.17 8.87-8.65 0-4.66-4.53-7-8.18-8.9-3-1.58-7.28-3.52-13-5.94-10.22-4.35-23.07-9.35-34.4-13.77-8-3.12-15.08-5.88-19.49-7.73l-2.41-6.41c-3.86-10.07-9.69-25.3-15-37.93-3-7.13-5.37-12.48-7.32-16.38-2.91-5.79-5.32-9.88-9.88-9.88\"></path>\n    </mask>\n  </defs>\n  <g mask=\"url(#body)\">\n    <path d=\"M499.16 99.59c-21.82 76.38-80.46 117.29-80.46 117.29v231.9s-36.83 36.78-169.12 36.78-169.12-36.78-169.12-36.78v-231.9S21.82 175.97 0 99.59C0 99.59 125.47 1.4 145.93.03s30 40.92 103.65 40.92S332.77-1.33 353.23.03s145.93 99.56 145.93 99.56\"></path>\n  </g>\n</svg>",
+    "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-84.885 0 485.56 485.56\">\n  <path d=\"M266.36 84.96c-22.47-22.43-56.47-34.85-85.38-39.28C174.49 20.39 161.29 0 157.2 0s-16.54 20.44-22.64 45.72c-28.84 4.45-62.76 16.87-85.14 39.24C-.81 135.19 0 169.78 0 379.84c42.56 70 72.4 105.72 72.4 105.72s34.64-102.14 22.28-184.52c-10.78-7.19-27.41-7.33-37.63-14.13-5.39-3.59-9-16.91-9-16.91s46.45-21 93.13-19.61v137.63s3 9.62 16.71 9.62 16.71-9.62 16.71-9.62V250.39c46.68-1.38 93.13 19.61 93.13 19.61s-4.23 12.82-10.38 16.91c-10.29 6.84-25.95 7.26-36.25 14.13-12.36 82.38 22.28 184.52 22.28 184.52s29.84-35.7 72.4-105.72c0-210.06.81-244.65-49.42-294.88\"></path>\n</svg>",
+    "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-8.805 0 480.41 480.41\">\n  <path d=\"M460.07 243.58c-3.67 4.91-16.42 35.85-31.12 43.2s-95.55 67.43-110.31 73.53-62.49 7.37-68.62 14.72-112.75 105.38-112.75 105.38-31.77-18-66.23-53.45l22.13-28.62 25.4-32.86a2 2 0 0 0-2.17-3l-3.2 1.1-74.12 25.51A289 289 0 0 1 0 314.96s123.78-73.53 128.69-88.23 6.12-52.68 6.12-52.68-8.57-42.92 4.91-65 51.47-45.32 51.47-45.32l16.59 5.17 35.35 13.81s-40.91 24.83-42.73 26.67 4.15 19.18 11.63 19.45c3.67.14 38.81-20.26 48.05-25.92 43.44 57.39 46 95.63 46 103s-16.85 16.79-49.64 23.9c-25.04 5.4-60.82-63.35-60.82-63.35s-22.74 7.38-17.69 17.51c26.54 53.14 51.4 68.63 62.89 73.7s92.25-17.53 92.54-42.39c.63-54-56.48-137-65.66-144.35-6.59-5.27-28.31-14.44-39.63-18.29 6.24-6.25 6.38-6.44 15.91-15.62 4.78-4.6 9.65-9.24 14.35-13.59 12.07-11.22 22.84-20.45 27.22-22.22 12.27-4.91 49 6.13 57.62 12.26s11 52.69 11 52.69 23.27-8.58 29.41-4.91 35.22 26.06 36.46 33.41-4.6 42.6-4.6 42.6 12.18 1.52 17.15 5.36c6.68 5.17 16.85 27.72 18.08 33.85s-11.93 34.32-11.93 34.32 16.66 8.69 19.66 11.97c5.82 6.43 5.39 15.91 1.7 20.82\"></path>\n</svg>",
+    "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 -35.99 528.3 528.3\">\n  <defs>\n    <mask id=\"two-hands\" fill=\"#000\">\n      <rect width=\"100%\" height=\"100%\" fill=\"#fff\"></rect>\n      <path stroke=\"currentColor\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" stroke-width=\"20\" d=\"M237.79 59.45s93.14 59.71 135.36 166.95\"></path>\n    </mask>\n  </defs>\n  <g mask=\"url(#two-hands)\">\n    <path d=\"M525.84 242.62c-3.31 4.43-14.81 32.35-28.08 39s-86.26 60.83-99.53 66.35-56.4 6.65-61.92 13.28-101.74 95.09-101.74 95.09-23.57-13.38-51.16-39.7c17.39-16.11 36.47-33.85 48.74-45.48 4.74-4.5 7.89-7.54 10-9.65 5-1.07 13.93-2.28 19.72-3.06 14.56-2 27.14-3.65 36.41-7.52 9.06-3.76 25.44-15 60.67-39.59 15.1-10.56 35.78-25 40.66-27.58 16.72-8.39 27.24-26.49 36.58-44.32.68-1.3 1.57-3 2-3.85 11.13-15.8 9.56-38.54-3.85-53.38-.35-.39-.77-.85-1.33-1.41s-1.28-1.22-2.2-2c3.84-11.05 4.68-18.15 3.27-25.14-1.56-7.79-6.62-18.4-8.73-22.6-7.84-15.66-14-21.51-17.89-24.55q-.81-.63-1.65-1.2c2-17.22 1.18-22.27.8-24.54-1.78-10.55-8.35-19.49-24.27-33-7.7-6.56-17-13.62-21.78-16.47q-.75-.45-1.53-.87c4.11-3.37 7.38-5.73 9.3-6.5 11.06-4.43 44.24 5.53 52 11.06s10 47.55 10 47.55 21-7.75 26.54-4.43 31.78 23.51 32.9 30.14-4.15 38.44-4.15 38.44 11 1.37 15.47 4.84c6 4.66 15.21 25 16.32 30.54s-10.77 31-10.77 31 15 7.82 17.68 10.78c5.26 5.8 4.86 14.36 1.54 18.79\"></path>\n    <path fill=\"#fff\" d=\"M318.83 49.68c.54 5.87.76 10 .76 10s-.22-4.16-.77-10\"></path>\n    <path d=\"M415.15 219.78c-3.32 4.43-14.82 32.34-28.09 39s-86.28 60.81-99.55 66.38-56.39 6.64-61.92 13.27c-1.1 1.33-5.85 5.95-12.74 12.48-12.19 11.55-31.06 29.1-48.3 45.06-21.64 20-40.69 37.56-40.69 37.56s-28.71-16.37-59.77-48.29l-28.84-34.2A260.81 260.81 0 0 1 0 284.16s111.68-66.32 116.15-79.59 5.51-47.54 5.51-47.54-7.73-38.72 4.43-58.63 46.45-40.9 46.45-40.9l17.7 5.53s56.4-57.51 67.45-61.93a20.88 20.88 0 0 1 7.52-1.1c14.3 0 38.06 7.58 44.46 12.15 2.18 1.56 3.91 6 5.29 11.59.15.62.3 1.25.44 1.9s.29 1.3.42 2c.07.33.14.67.2 1 .14.68.26 1.36.38 2s.25 1.39.36 2.09.23 1.4.33 2.1c.06.38.12.77.17 1.15.71 4.84 1.23 9.66 1.6 13.68.55 5.87.77 10 .77 10s5.28-2 11.26-3.48a48.74 48.74 0 0 1 11.1-1.78 8.3 8.3 0 0 1 4.17.83c5.53 3.31 31.78 23.5 32.9 30.14s-4.15 38.43-4.15 38.43 11 1.37 15.48 4.84c6 4.67 15.21 25 16.31 30.55s-10.77 31-10.77 31 15 7.82 17.69 10.78c5.25 5.8 4.86 14.37 1.54 18.8\"></path>\n  </g>\n</svg>",
+    "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-19.75 0 480.41 480.41\">\n  <defs>\n    <mask id=\"small-item\" fill=\"#000\">\n      <rect width=\"100%\" height=\"100%\" fill=\"#fff\"></rect>\n      <path d=\"m138.46 173.2-4.35 39.17s68.19 11.6 97.21 7.25 97.14-21.72 108.77-17.37 11.61-21.76-13.06-26.11-103 5.8-124.77 2.9-63.8-5.84-63.8-5.84\"></path>\n    </mask>\n  </defs>\n  <g mask=\"url(#small-item)\">\n    <path d=\"M81.84 36.85c-22.75 25.6-16 74 30.47 127.68-34.82-2.9-98.66-7.25-110.27 7.25s30.47 59.49 23.21 82.7c40.63-20.31 53.69-47.88 84.15-40.62-2.9 21.76-2.9 30.47-24.66 59.48s-62.39 158.15 36.27 190.07 105.91 5.79 153.79 5.79 95.76 36.27 142.19-21.76 21.76-185.7-43.53-264.05c1.45-14.51 60.94-63.84 36.27-105.91-8.7-11.61-62.38-11.61-75.44-14.51 13.06-33.37-2.9-75.44-34.82-59.49s-72.55 68.19-85.6 69.65c-6.53.72-33.93-3.27-60.94-17.41S99.26 17.26 81.84 36.85\"></path>\n  </g>\n</svg>"
+  ],
+  "items": [
+    {
+      "name": "Weathered Boots",
+      "code": "1",
+      "cost": "15",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8639.image.webp",
+      "local_image": "images/Items/1_Weathered_Boots.webp",
+      "equip_slot_icon": 0
+    },
+    {
+      "name": "Winged Shoes",
+      "code": "2",
+      "cost": "15",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8640.image.webp",
+      "local_image": "images/Items/2_Winged_Shoes.webp",
+      "equip_slot_icon": 0
+    },
+    {
+      "name": "Hide Armor",
+      "code": "3",
+      "cost": "10",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8641.image.webp",
+      "local_image": "images/Items/3_Hide_Armor.webp",
+      "equip_slot_icon": 1
+    },
+    {
+      "name": "Leather Armor",
+      "code": "4",
+      "cost": "10",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8642.image.webp",
+      "local_image": "images/Items/4_Leather_Armor.webp",
+      "equip_slot_icon": 1
+    },
+    {
+      "name": "Scouting Lens",
+      "code": "5",
+      "cost": "10",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8643.image.webp",
+      "local_image": "images/Items/5_Scouting_Lens.webp",
+      "equip_slot_icon": 2
+    },
+    {
+      "name": "Amulet of Life",
+      "code": "6",
+      "cost": "15",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8644.image.webp",
+      "local_image": "images/Items/6_Amulet_of_Life.webp",
+      "equip_slot_icon": 2
+    },
+    {
+      "name": "Poison Dagger",
+      "code": "7",
+      "cost": "15",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8645.image.webp",
+      "local_image": "images/Items/7_Poison_Dagger.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Heater Shield",
+      "code": "8",
+      "cost": "15",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8646.image.webp",
+      "local_image": "images/Items/8_Heater_Shield.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Focusing Rod",
+      "code": "9",
+      "cost": "10",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8647.image.webp",
+      "local_image": "images/Items/9_Focusing_Rod.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Simple Bow",
+      "code": "10",
+      "cost": "15",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8648.image.webp",
+      "local_image": "images/Items/10_Simple_Bow.webp",
+      "equip_slot_icon": 4
+    },
+    {
+      "name": "Healing Potion",
+      "code": "11",
+      "cost": "10",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8649.image.webp",
+      "local_image": "images/Items/11_Healing_Potion.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Stamina Potion",
+      "code": "12",
+      "cost": "10",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8650.image.webp",
+      "local_image": "images/Items/12_Stamina_Potion.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Element Potion",
+      "code": "13",
+      "cost": "10",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8651.image.webp",
+      "local_image": "images/Items/13_Element_Potion.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Studded Leather",
+      "code": "14",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8652.image.webp",
+      "local_image": "images/Items/14_Studded_Leather.webp",
+      "equip_slot_icon": 1
+    },
+    {
+      "name": "Comfortable Shoes",
+      "code": "15",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8653.image.webp",
+      "local_image": "images/Items/15_Comfortable_Shoes.webp",
+      "equip_slot_icon": 0
+    },
+    {
+      "name": "Circlet of Elements",
+      "code": "16",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8654.image.webp",
+      "local_image": "images/Items/16_Circlet_of_Elements.webp",
+      "equip_slot_icon": 2
+    },
+    {
+      "name": "Boots of Speed",
+      "code": "17",
+      "cost": "30",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8655.image.webp",
+      "local_image": "images/Items/17_Boots_of_Speed.webp",
+      "equip_slot_icon": 0
+    },
+    {
+      "name": "Heavy Basinet",
+      "code": "18",
+      "cost": "15",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8656.image.webp",
+      "local_image": "images/Items/18_Heavy_Basinet.webp",
+      "equip_slot_icon": 2
+    },
+    {
+      "name": "Warden's Robes",
+      "code": "19",
+      "cost": "30",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8657.image.webp",
+      "local_image": "images/Items/19_Wardens_Robes.webp",
+      "equip_slot_icon": 1
+    },
+    {
+      "name": "Hooked Chain",
+      "code": "20",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8658.image.webp",
+      "local_image": "images/Items/20_Hooked_Chain.webp",
+      "equip_slot_icon": 4
+    },
+    {
+      "name": "Power Potion",
+      "code": "21",
+      "cost": "15",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8659.image.webp",
+      "local_image": "images/Items/21_Power_Potion.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Iron Spear",
+      "code": "22",
+      "cost": "25",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8660.image.webp",
+      "local_image": "images/Items/22_Iron_Spear.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Jagged Sword",
+      "code": "23",
+      "cost": "25",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8661.image.webp",
+      "local_image": "images/Items/23_Jagged_Sword.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Black Knife",
+      "code": "24",
+      "cost": "25",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8662.image.webp",
+      "local_image": "images/Items/24_Black_Knife.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Weighted Net",
+      "code": "25",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8663.image.webp",
+      "local_image": "images/Items/25_Weighted_Net.webp",
+      "equip_slot_icon": 4
+    },
+    {
+      "name": "Eagle-Eye Goggles",
+      "code": "26",
+      "cost": "30",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8664.image.webp",
+      "local_image": "images/Items/26_Eagle-Eye_Goggles.webp",
+      "equip_slot_icon": 2
+    },
+    {
+      "name": "Iron Helmet",
+      "code": "27",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8665.image.webp",
+      "local_image": "images/Items/27_Iron_Helmet.webp",
+      "equip_slot_icon": 2
+    },
+    {
+      "name": "Chainmail",
+      "code": "28",
+      "cost": "25",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8666.image.webp",
+      "local_image": "images/Items/28_Chainmail.webp",
+      "equip_slot_icon": 1
+    },
+    {
+      "name": "Nimble Legguards",
+      "code": "29",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8667.image.webp",
+      "local_image": "images/Items/29_Nimble_Legguards.webp",
+      "equip_slot_icon": 0
+    },
+    {
+      "name": "Armorbane Bow",
+      "code": "30",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8668.image.webp",
+      "local_image": "images/Items/30_Armorbane_Bow.webp",
+      "equip_slot_icon": 4
+    },
+    {
+      "name": "Staff of Summoning",
+      "code": "31",
+      "cost": "30",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8669.image.webp",
+      "local_image": "images/Items/31_Staff_of_Summoning.webp",
+      "equip_slot_icon": 4
+    },
+    {
+      "name": "Black Censer",
+      "code": "32",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8670.image.webp",
+      "local_image": "images/Items/32_Black_Censer.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Second Skin",
+      "code": "33",
+      "cost": "25",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8671.image.webp",
+      "local_image": "images/Items/33_Second_Skin.webp",
+      "equip_slot_icon": 1
+    },
+    {
+      "name": "Battle Axe",
+      "code": "34",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8672.image.webp",
+      "local_image": "images/Items/34_Battle_Axe.webp",
+      "equip_slot_icon": 4
+    },
+    {
+      "name": "Tower Shield",
+      "code": "35",
+      "cost": "30",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8673.image.webp",
+      "local_image": "images/Items/35_Tower_Shield.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Moon Earring",
+      "code": "36",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8674.image.webp",
+      "local_image": "images/Items/36_Moon_Earring.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Major Healing Potion",
+      "code": "37",
+      "cost": "25",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8675.image.webp",
+      "local_image": "images/Items/37_Major_Healing_Potion.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Heavy Greaves",
+      "code": "38",
+      "cost": "25",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8676.image.webp",
+      "local_image": "images/Items/38_Heavy_Greaves.webp",
+      "equip_slot_icon": 0
+    },
+    {
+      "name": "Ring of Skulls",
+      "code": "39",
+      "cost": "40",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8677.image.webp",
+      "local_image": "images/Items/39_Ring_of_Skulls.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Shadow Armor",
+      "code": "40",
+      "cost": "25",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8678.image.webp",
+      "local_image": "images/Items/40_Shadow_Armor.webp",
+      "equip_slot_icon": 1
+    },
+    {
+      "name": "Kinetic Treads",
+      "code": "41",
+      "cost": "30",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8679.image.webp",
+      "local_image": "images/Items/41_Kinetic_Treads.webp",
+      "equip_slot_icon": 0
+    },
+    {
+      "name": "Endurance Footwraps",
+      "code": "42",
+      "cost": "40",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8680.image.webp",
+      "local_image": "images/Items/42_Endurance_Footwraps.webp",
+      "equip_slot_icon": 0
+    },
+    {
+      "name": "Hawk Helm",
+      "code": "43",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8681.image.webp",
+      "local_image": "images/Items/43_Hawk_Helm.webp",
+      "equip_slot_icon": 2
+    },
+    {
+      "name": "Precision Bow",
+      "code": "44",
+      "cost": "40",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8682.image.webp",
+      "local_image": "images/Items/44_Precision_Bow.webp",
+      "equip_slot_icon": 4
+    },
+    {
+      "name": "Major Element Potion",
+      "code": "45",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8683.image.webp",
+      "local_image": "images/Items/45_Major_Element_Potion.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Light Targe",
+      "code": "46",
+      "cost": "30",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8684.image.webp",
+      "local_image": "images/Items/46_Light_Targe.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Cloak of Pockets",
+      "code": "47",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8685.image.webp",
+      "local_image": "images/Items/47_Cloak_of_Pockets.webp",
+      "equip_slot_icon": 1
+    },
+    {
+      "name": "Staff of Elements",
+      "code": "48",
+      "cost": "30",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8686.image.webp",
+      "local_image": "images/Items/48_Staff_of_Elements.webp",
+      "equip_slot_icon": 4
+    },
+    {
+      "name": "Horned Helm",
+      "code": "49",
+      "cost": "35",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8687.image.webp",
+      "local_image": "images/Items/49_Horned_Helm.webp",
+      "equip_slot_icon": 2
+    },
+    {
+      "name": "Robes of the Oak",
+      "code": "50",
+      "cost": "30",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8688.image.webp",
+      "local_image": "images/Items/50_Robes_of_the_Oak.webp",
+      "equip_slot_icon": 1
+    },
+    {
+      "name": "Heavy Mace",
+      "code": "51",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8689.image.webp",
+      "local_image": "images/Items/51_Heavy_Mace.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Sun Earring",
+      "code": "52",
+      "cost": "35",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8690.image.webp",
+      "local_image": "images/Items/52_Sun_Earring.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Major Power Potion",
+      "code": "53",
+      "cost": "35",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8691.image.webp",
+      "local_image": "images/Items/53_Major_Power_Potion.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Circlet of Sanctity",
+      "code": "54",
+      "cost": "45",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8692.image.webp",
+      "local_image": "images/Items/54_Circlet_of_Sanctity.webp",
+      "equip_slot_icon": 2
+    },
+    {
+      "name": "Volatile Bomb",
+      "code": "55",
+      "cost": "40",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8693.image.webp",
+      "local_image": "images/Items/55_Volatile_Bomb.webp",
+      "equip_slot_icon": 4
+    },
+    {
+      "name": "Steel Sabatons",
+      "code": "56",
+      "cost": "50",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8694.image.webp",
+      "local_image": "images/Items/56_Steel_Sabatons.webp",
+      "equip_slot_icon": 0
+    },
+    {
+      "name": "Strategist's Ring",
+      "code": "57",
+      "cost": "30",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8695.image.webp",
+      "local_image": "images/Items/57_Strategists_Ring.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Major Stamina Potion",
+      "code": "58",
+      "cost": "35",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8696.image.webp",
+      "local_image": "images/Items/58_Major_Stamina_Potion.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Telescopic Lens",
+      "code": "59",
+      "cost": "35",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8697.image.webp",
+      "local_image": "images/Items/59_Telescopic_Lens.webp",
+      "equip_slot_icon": 2
+    },
+    {
+      "name": "Staff of Eminence",
+      "code": "60",
+      "cost": "50",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8698.image.webp",
+      "local_image": "images/Items/60_Staff_of_Eminence.webp",
+      "equip_slot_icon": 4
+    },
+    {
+      "name": "War Hammer",
+      "code": "61",
+      "cost": "30",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8699.image.webp",
+      "local_image": "images/Items/61_War_Hammer.webp",
+      "equip_slot_icon": 4
+    },
+    {
+      "name": "Mask of Terror",
+      "code": "62",
+      "cost": "50",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8700.image.webp",
+      "local_image": "images/Items/62_Mask_of_Terror.webp",
+      "equip_slot_icon": 2
+    },
+    {
+      "name": "Star Earring",
+      "code": "63",
+      "cost": "50",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8701.image.webp",
+      "local_image": "images/Items/63_Star_Earring.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Empowering Talisman",
+      "code": "64",
+      "cost": "40",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8702.image.webp",
+      "local_image": "images/Items/64_Empowering_Talisman.webp",
+      "equip_slot_icon": 2
+    },
+    {
+      "name": "Long Spear",
+      "code": "65",
+      "cost": "40",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8703.image.webp",
+      "local_image": "images/Items/65_Long_Spear.webp",
+      "equip_slot_icon": 4
+    },
+    {
+      "name": "Cloak of Invisibility",
+      "code": "66",
+      "cost": "30",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8704.image.webp",
+      "local_image": "images/Items/66_Cloak_of_Invisibility.webp",
+      "equip_slot_icon": 1
+    },
+    {
+      "name": "Spiked Shoes",
+      "code": "67",
+      "cost": "40",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8705.image.webp",
+      "local_image": "images/Items/67_Spiked_Shoes.webp",
+      "equip_slot_icon": 0
+    },
+    {
+      "name": "Ring of Haste",
+      "code": "68",
+      "cost": "40",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8706.image.webp",
+      "local_image": "images/Items/68_Ring_of_Haste.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Platemail",
+      "code": "69",
+      "cost": "35",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8707.image.webp",
+      "local_image": "images/Items/69_Platemail.webp",
+      "equip_slot_icon": 1
+    },
+    {
+      "name": "Standard Rations",
+      "code": "70",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8708.image.webp",
+      "local_image": "images/Items/70_Standard_Rations.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Mastercraft Crossbow",
+      "code": "71",
+      "cost": "35",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8709.image.webp",
+      "local_image": "images/Items/71_Mastercraft_Crossbow.webp",
+      "equip_slot_icon": 4
+    },
+    {
+      "name": "Commander's Cap",
+      "code": "72",
+      "cost": "30",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8710.image.webp",
+      "local_image": "images/Items/72_Commanders_Cap.webp",
+      "equip_slot_icon": 2
+    },
+    {
+      "name": "Mantle of Summoning",
+      "code": "73",
+      "cost": "35",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8711.image.webp",
+      "local_image": "images/Items/73_Mantle_of_Summoning.webp",
+      "equip_slot_icon": 1
+    },
+    {
+      "name": "Concealed Dagger",
+      "code": "74",
+      "cost": "40",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8712.image.webp",
+      "local_image": "images/Items/74_Concealed_Dagger.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Opulent Hood",
+      "code": "75",
+      "cost": "40",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8713.image.webp",
+      "local_image": "images/Items/75_Opulent_Hood.webp",
+      "equip_slot_icon": 2
+    },
+    {
+      "name": "Merchant's Insignia",
+      "code": "76",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8714.image.webp",
+      "local_image": "images/Items/76_Merchants_Insignia.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Robes of Evocation",
+      "code": "77",
+      "cost": "35",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8715.image.webp",
+      "local_image": "images/Items/77_Robes_of_Evocation.webp",
+      "equip_slot_icon": 1
+    },
+    {
+      "name": "Reaping Scythe",
+      "code": "78",
+      "cost": "30",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8716.image.webp",
+      "local_image": "images/Items/78_Reaping_Scythe.webp",
+      "equip_slot_icon": 4
+    },
+    {
+      "name": "Doom Powder",
+      "code": "79",
+      "cost": "35",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8717.image.webp",
+      "local_image": "images/Items/79_Doom_Powder.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Demonic Skull",
+      "code": "80",
+      "cost": "50",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8718.image.webp",
+      "local_image": "images/Items/80_Demonic_Skull.webp",
+      "equip_slot_icon": 2
+    },
+    {
+      "name": "Frigid Blade",
+      "code": "81",
+      "cost": "25",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8719.image.webp",
+      "local_image": "images/Items/81_Frigid_Blade.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Storm Blade",
+      "code": "82",
+      "cost": "25",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8720.image.webp",
+      "local_image": "images/Items/82_Storm_Blade.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Inferno Blade",
+      "code": "83",
+      "cost": "25",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8721.image.webp",
+      "local_image": "images/Items/83_Inferno_Blade.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Tremor Blade",
+      "code": "84",
+      "cost": "25",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8722.image.webp",
+      "local_image": "images/Items/84_Tremor_Blade.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Brilliant Blade",
+      "code": "85",
+      "cost": "25",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8723.image.webp",
+      "local_image": "images/Items/85_Brilliant_Blade.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Night Blade",
+      "code": "86",
+      "cost": "25",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8724.image.webp",
+      "local_image": "images/Items/86_Night_Blade.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Versatile Dagger",
+      "code": "87",
+      "cost": "25",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8725.image.webp",
+      "local_image": "images/Items/87_Versatile_Dagger.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Spiked Shield",
+      "code": "88",
+      "cost": "35",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8726.image.webp",
+      "local_image": "images/Items/88_Spiked_Shield.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Swordedge Armor",
+      "code": "89",
+      "cost": "40",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8727.image.webp",
+      "local_image": "images/Items/89_Swordedge_Armor.webp",
+      "equip_slot_icon": 1
+    },
+    {
+      "name": "Blinking Cape",
+      "code": "90",
+      "cost": "35",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8728.image.webp",
+      "local_image": "images/Items/90_Blinking_Cape.webp",
+      "equip_slot_icon": 1
+    },
+    {
+      "name": "Boots of Quickness",
+      "code": "91",
+      "cost": "45",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8729.image.webp",
+      "local_image": "images/Items/91_Boots_of_Quickness.webp",
+      "equip_slot_icon": 0
+    },
+    {
+      "name": "Stun Powder",
+      "code": "92",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8730.image.webp",
+      "local_image": "images/Items/92_Stun_Powder.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Scroll of Ferocity",
+      "code": "93",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8731.image.webp",
+      "local_image": "images/Items/93_Scroll_of_Ferocity.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Scroll of Healing",
+      "code": "94",
+      "cost": "15",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8732.image.webp",
+      "local_image": "images/Items/94_Scroll_of_Healing.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Scroll of Shielding",
+      "code": "95",
+      "cost": "15",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8733.image.webp",
+      "local_image": "images/Items/95_Scroll_of_Shielding.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Scroll of Swiftness",
+      "code": "96",
+      "cost": "10",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8734.image.webp",
+      "local_image": "images/Items/96_Scroll_of_Swiftness.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Shoes of Happiness",
+      "code": "97",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8735.image.webp",
+      "local_image": "images/Items/97_Shoes_of_Happiness.webp",
+      "equip_slot_icon": 0
+    },
+    {
+      "name": "Cloak of Phasing",
+      "code": "98",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8736.image.webp",
+      "local_image": "images/Items/98_Cloak_of_Phasing.webp",
+      "equip_slot_icon": 1
+    },
+    {
+      "name": "Unstable Explosives",
+      "code": "99",
+      "cost": "30",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8737.image.webp",
+      "local_image": "images/Items/99_Unstable_Explosives.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Charged Boots",
+      "code": "100",
+      "cost": "30",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8738.image.webp",
+      "local_image": "images/Items/100_Charged_Boots.webp",
+      "equip_slot_icon": 0
+    },
+    {
+      "name": "Cure Potion",
+      "code": "101",
+      "cost": "10",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8739.image.webp",
+      "local_image": "images/Items/101_Cure_Potion.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Steel Ring",
+      "code": "102",
+      "cost": "15",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8740.image.webp",
+      "local_image": "images/Items/102_Steel_Ring.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Ranger's Hood",
+      "code": "103",
+      "cost": "25",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8741.image.webp",
+      "local_image": "images/Items/103_Rangers_Hood.webp",
+      "equip_slot_icon": 2
+    },
+    {
+      "name": "Warding Rod",
+      "code": "104",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8742.image.webp",
+      "local_image": "images/Items/104_Warding_Rod.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Lucky Eye",
+      "code": "105",
+      "cost": "40",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8743.image.webp",
+      "local_image": "images/Items/105_Lucky_Eye.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Steam Armor",
+      "code": "106",
+      "cost": "30",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8744.image.webp",
+      "local_image": "images/Items/106_Steam_Armor.webp",
+      "equip_slot_icon": 1
+    },
+    {
+      "name": "Necklace of Teeth",
+      "code": "107",
+      "cost": "30",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8745.image.webp",
+      "local_image": "images/Items/107_Necklace_of_Teeth.webp",
+      "equip_slot_icon": 2
+    },
+    {
+      "name": "Thief's Hood",
+      "code": "108",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8746.image.webp",
+      "local_image": "images/Items/108_Thiefs_Hood.webp",
+      "equip_slot_icon": 2
+    },
+    {
+      "name": "Ancient Drill",
+      "code": "109",
+      "cost": "30",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8747.image.webp",
+      "local_image": "images/Items/109_Ancient_Drill.webp",
+      "equip_slot_icon": 4
+    },
+    {
+      "name": "Fueled Falchion",
+      "code": "110",
+      "cost": "30",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8748.image.webp",
+      "local_image": "images/Items/110_Fueled_Falchion.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Skull of Hatred",
+      "code": "111",
+      "cost": "40",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8749.image.webp",
+      "local_image": "images/Items/111_Skull_of_Hatred.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Curious Gear",
+      "code": "112",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8750.image.webp",
+      "local_image": "images/Items/112_Curious_Gear.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Black Card",
+      "code": "113",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8751.image.webp",
+      "local_image": "images/Items/113_Black_Card.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Gust Striders",
+      "code": "114",
+      "cost": "30",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8752.image.webp",
+      "local_image": "images/Items/114_Gust_Striders.webp",
+      "equip_slot_icon": 0
+    },
+    {
+      "name": "Rod of Transference",
+      "code": "115",
+      "cost": "40",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8753.image.webp",
+      "local_image": "images/Items/115_Rod_of_Transference.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Fated Verses",
+      "code": "116",
+      "cost": "30",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8754.image.webp",
+      "local_image": "images/Items/116_Fated_Verses.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Dawnblade",
+      "code": "117",
+      "cost": "25",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8755.image.webp",
+      "local_image": "images/Items/117_Dawnblade.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Duskbrand",
+      "code": "118",
+      "cost": "25",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8756.image.webp",
+      "local_image": "images/Items/118_Duskbrand.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Drakescale Boots",
+      "code": "119",
+      "cost": "25",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8757.image.webp",
+      "local_image": "images/Items/119_Drakescale_Boots.webp",
+      "equip_slot_icon": 0
+    },
+    {
+      "name": "Drakescale Armor",
+      "code": "120",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8758.image.webp",
+      "local_image": "images/Items/120_Drakescale_Armor.webp",
+      "equip_slot_icon": 1
+    },
+    {
+      "name": "Drakescale Helm",
+      "code": "121",
+      "cost": "35",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8759.image.webp",
+      "local_image": "images/Items/121_Drakescale_Helm.webp",
+      "equip_slot_icon": 2
+    },
+    {
+      "name": "Frost Beetle Lantern",
+      "code": "122",
+      "cost": "15",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8760.image.webp",
+      "local_image": "images/Items/122_Frost_Beetle_Lantern.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Storm Beetle Lantern",
+      "code": "123",
+      "cost": "15",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8761.image.webp",
+      "local_image": "images/Items/123_Storm_Beetle_Lantern.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Ignition Beetle Lantern",
+      "code": "124",
+      "cost": "15",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8762.image.webp",
+      "local_image": "images/Items/124_Ignition_Beetle_Lantern.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Tremor Beetle Lantern",
+      "code": "125",
+      "cost": "15",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8763.image.webp",
+      "local_image": "images/Items/125_Tremor_Beetle_Lantern.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Brilliant Beetle Lantern",
+      "code": "126",
+      "cost": "15",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8764.image.webp",
+      "local_image": "images/Items/126_Brilliant_Beetle_Lantern.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Twilight Beetle Lantern",
+      "code": "127",
+      "cost": "15",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8765.image.webp",
+      "local_image": "images/Items/127_Twilight_Beetle_Lantern.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Pendant of Dark Pacts",
+      "code": "128",
+      "cost": "40",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8766.image.webp",
+      "local_image": "images/Items/128_Pendant_of_Dark_Pacts.webp",
+      "equip_slot_icon": 2
+    },
+    {
+      "name": "Helm of the Mountain",
+      "code": "129",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8767.image.webp",
+      "local_image": "images/Items/129_Helm_of_the_Mountain.webp",
+      "equip_slot_icon": 2
+    },
+    {
+      "name": "Mountain Hammer",
+      "code": "130",
+      "cost": "40",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8768.image.webp",
+      "local_image": "images/Items/130_Mountain_Hammer.webp",
+      "equip_slot_icon": 4
+    },
+    {
+      "name": "Wave Crest",
+      "code": "131",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8769.image.webp",
+      "local_image": "images/Items/131_Wave_Crest.webp",
+      "equip_slot_icon": 2
+    },
+    {
+      "name": "Doomed Compass",
+      "code": "132",
+      "cost": "50",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8770.image.webp",
+      "local_image": "images/Items/132_Doomed_Compass.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Heart of the Betrayer",
+      "code": "133",
+      "cost": "50",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8771.image.webp",
+      "local_image": "images/Items/133_Heart_of_the_Betrayer.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Power Core",
+      "code": "134",
+      "cost": "75",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8772.image.webp",
+      "local_image": "images/Items/134_Power_Core.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Resonant Crystal",
+      "code": "135",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8773.image.webp",
+      "local_image": "images/Items/135_Resonant_Crystal.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Helix Ring",
+      "code": "136",
+      "cost": "40",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8774.image.webp",
+      "local_image": "images/Items/136_Helix_Ring.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Flea-Bitten Shawl",
+      "code": "137",
+      "cost": "10",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8775.image.webp",
+      "local_image": "images/Items/137_Flea-Bitten_Shawl.webp",
+      "equip_slot_icon": 1
+    },
+    {
+      "name": "Bloody Axe",
+      "code": "138",
+      "cost": "30",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8776.image.webp",
+      "local_image": "images/Items/138_Bloody_Axe.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Otherworldly Scepter",
+      "code": "139",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8777.image.webp",
+      "local_image": "images/Items/139_Otherworldly_Scepter.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Remote Attack Spider",
+      "code": "140",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8778.image.webp",
+      "local_image": "images/Items/140_Remote_Attack_Spider.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Remote Aid Spider",
+      "code": "141",
+      "cost": "15",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8779.image.webp",
+      "local_image": "images/Items/141_Remote_Aid_Spider.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Magma Waders",
+      "code": "142",
+      "cost": "40",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8780.image.webp",
+      "local_image": "images/Items/142_Magma_Waders.webp",
+      "equip_slot_icon": 0
+    },
+    {
+      "name": "Boots of Bracing",
+      "code": "143",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8781.image.webp",
+      "local_image": "images/Items/143_Boots_of_Bracing.webp",
+      "equip_slot_icon": 0
+    },
+    {
+      "name": "Temporal Matrix",
+      "code": "144",
+      "cost": "30",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8782.image.webp",
+      "local_image": "images/Items/144_Temporal_Matrix.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Harrow-Hook",
+      "code": "145",
+      "cost": "50",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8783.image.webp",
+      "local_image": "images/Items/145_Harrow-Hook.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Amberhollow",
+      "code": "146",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8784.image.webp",
+      "local_image": "images/Items/146_Amberhollow.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Scepter of Xorn",
+      "code": "147",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8785.image.webp",
+      "local_image": "images/Items/147_Scepter_of_Xorn.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Shield of the Righteous",
+      "code": "148",
+      "cost": "30",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8786.image.webp",
+      "local_image": "images/Items/148_Shield_of_the_Righteous.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Aesther Spyglass",
+      "code": "149",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8787.image.webp",
+      "local_image": "images/Items/149_Aesther_Spyglass.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Experimental Armor",
+      "code": "150",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8788.image.webp",
+      "local_image": "images/Items/150_Experimental_Armor.webp",
+      "equip_slot_icon": 1
+    },
+    {
+      "name": "Sword of the Sands",
+      "code": "151",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8789.image.webp",
+      "local_image": "images/Items/151_Sword_of_the_Sands.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Ruby Talisman",
+      "code": "152",
+      "cost": "20",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8790.image.webp",
+      "local_image": "images/Items/152_Ruby_Talisman.webp",
+      "equip_slot_icon": 2
+    },
+    {
+      "name": "Hooked Shield",
+      "code": "153",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8791.image.webp",
+      "local_image": "images/Items/153_Hooked_Shield.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Focusing Ray",
+      "code": "154",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8792.image.webp",
+      "local_image": "images/Items/154_Focusing_Ray.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Etheric Elixir",
+      "code": "155",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8793.image.webp",
+      "local_image": "images/Items/155_Etheric_Elixir.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Silent Stiletto",
+      "code": "156",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8794.image.webp",
+      "local_image": "images/Items/156_Silent_Stiletto.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Stone Charm",
+      "code": "157",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8795.image.webp",
+      "local_image": "images/Items/157_Stone_Charm.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Psyschic Knife",
+      "code": "158",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8796.image.webp",
+      "local_image": "images/Items/158_Psyschic_Knife.webp",
+      "equip_slot_icon": 3
+    },
+    {
+      "name": "Insignia of the Divine",
+      "code": "159",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8797.image.webp",
+      "local_image": "images/Items/159_Insignia_of_the_Divine.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Utility Belt",
+      "code": "160",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8798.image.webp",
+      "local_image": "images/Items/160_Utility_Belt.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Phasing Idol",
+      "code": "161",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8799.image.webp",
+      "local_image": "images/Items/161_Phasing_Idol.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "The Night's Caress",
+      "code": "162",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8800.image.webp",
+      "local_image": "images/Items/162_The_Nights_Caress.webp",
+      "equip_slot_icon": 2
+    },
+    {
+      "name": "Pendant of the Plague",
+      "code": "163",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8801.image.webp",
+      "local_image": "images/Items/163_Pendant_of_the_Plague.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Mask of Death",
+      "code": "164",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8802.image.webp",
+      "local_image": "images/Items/164_Mask_of_Death.webp",
+      "equip_slot_icon": 2
+    },
+    {
+      "name": "Master's Lute",
+      "code": "165",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8803.image.webp",
+      "local_image": "images/Items/165_Masters_Lute.webp",
+      "equip_slot_icon": 4
+    },
+    {
+      "name": "Cloak of the Hunter",
+      "code": "166",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8804.image.webp",
+      "local_image": "images/Items/166_Cloak_of_the_Hunter.webp",
+      "equip_slot_icon": 1
+    },
+    {
+      "name": "Doctor's Coat",
+      "code": "167",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8805.image.webp",
+      "local_image": "images/Items/167_Doctors_Coat.webp",
+      "equip_slot_icon": 1
+    },
+    {
+      "name": "Elemental Vest",
+      "code": "168",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8806.image.webp",
+      "local_image": "images/Items/168_Elemental_Vest.webp",
+      "equip_slot_icon": 1
+    },
+    {
+      "name": "Staff of Command",
+      "code": "169",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8807.image.webp",
+      "local_image": "images/Items/169_Staff_of_Command.webp",
+      "equip_slot_icon": 4
+    },
+    {
+      "name": "Crawling Carapace",
+      "code": "170",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8808.image.webp",
+      "local_image": "images/Items/170_Crawling_Carapace.webp",
+      "equip_slot_icon": 1
+    },
+    {
+      "name": "Sharpened Dirk",
+      "code": "Q1",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8809.image.webp",
+      "local_image": "images/Items/Q1_Sharpened_Dirk.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Sturdy Spear",
+      "code": "Q2",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8810.image.webp",
+      "local_image": "images/Items/Q2_Sturdy_Spear.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Scroll of Embers",
+      "code": "Q3",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8811.image.webp",
+      "local_image": "images/Items/Q3_Scroll_of_Embers.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Weighted Bolas",
+      "code": "Q4",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8812.image.webp",
+      "local_image": "images/Items/Q4_Weighted_Bolas.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Scroll of Relocation",
+      "code": "Q5",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8813.image.webp",
+      "local_image": "images/Items/Q5_Scroll_of_Relocation.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Corrosive Coating",
+      "code": "Q6",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8814.image.webp",
+      "local_image": "images/Items/Q6_Corrosive_Coating.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Iron Plate",
+      "code": "Q7",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8815.image.webp",
+      "local_image": "images/Items/Q7_Iron_Plate.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Barbed Strip",
+      "code": "Q8",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8816.image.webp",
+      "local_image": "images/Items/Q8_Barbed_Strip.webp",
+      "equip_slot_icon": 5
+    },
+    {
+      "name": "Scroll of Foresight",
+      "code": "Q9",
+      "cost": "0",
+      "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8817.image.webp",
+      "local_image": "images/Items/Q9_Scroll_of_Foresight.webp",
+      "equip_slot_icon": 5
+    }
+  ]
+}

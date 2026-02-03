@@ -50,14 +50,11 @@ async def scrape_items():
                 code = await code_elem.inner_text() if code_elem else str(i)
                 code = code.strip()
                 
-                # Extract equip slot type from the mask id in the SVG
-                equip_slot_elem = await card.query_selector("div.overlay.icon.equip-slot svg.icon")
-                equip_slot = None
+                # Extract equip slot icon SVG content (nested svg inside svg.icon)
+                equip_slot_elem = await card.query_selector("div.equip-slot svg.icon > svg")
+                equip_slot_svg = None
                 if equip_slot_elem:
-                    svg_html = await equip_slot_elem.inner_html()
-                    match = re.search(r'mask id="([^"]+)"', svg_html)
-                    if match:
-                        equip_slot = match.group(1)
+                    equip_slot_svg = await equip_slot_elem.evaluate("el => el.outerHTML")
                 
                 # Extract image URL from the image tag inside the SVG
                 image_elem = await card.query_selector("svg.fs_image image")
@@ -80,7 +77,7 @@ async def scrape_items():
                         "name": name,
                         "code": code,
                         "cost": cost,
-                        "equip_slot": equip_slot,
+                        "equip_slot_svg": equip_slot_svg,
                         "image_url": image_url,
                         "local_image": f"images/Items/{filename}"
                     })
@@ -107,11 +104,33 @@ async def scrape_items():
         
         await browser.close()
     
+    # Dedupe equip slot icons and create index
+    unique_icons = []
+    icon_map = {}  # svg -> index
+    
+    for item in items:
+        svg = item.get("equip_slot_svg")
+        if svg and svg not in icon_map:
+            icon_map[svg] = len(unique_icons)
+            unique_icons.append(svg)
+    
+    # Replace SVG with index in items
+    for item in items:
+        svg = item.pop("equip_slot_svg", None)
+        item["equip_slot_icon"] = icon_map.get(svg) if svg else None
+    
+    # Build output with icons array and items
+    output = {
+        "equip_slot_icons": unique_icons,
+        "items": items
+    }
+    
     # Save JSON
     with open(JSON_OUTPUT, "w", encoding="utf-8") as f:
-        json.dump(items, f, indent=2, ensure_ascii=False)
+        json.dump(output, f, indent=2, ensure_ascii=False)
     
-    print(f"\nSaved {len(items)} items to {JSON_OUTPUT}")
+    print(f"\nFound {len(unique_icons)} unique equip slot icons")
+    print(f"Saved {len(items)} items to {JSON_OUTPUT}")
     print(f"Images saved to {OUTPUT_DIR}")
 
 

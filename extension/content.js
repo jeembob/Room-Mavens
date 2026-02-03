@@ -3,6 +3,7 @@ const IMAGE_BASE_URL = 'https://raw.githubusercontent.com/jeembob/Room-Mavens/ma
 let cardNameToCharacter = {};
 let normalizedToOriginal = {};
 let itemCardsByImageId = {};
+let equipSlotIcons = [];
 
 function normalizeForMatch(name) {
   return name
@@ -124,15 +125,6 @@ function processAllCards() {
 
 // --- Item Card Injection ---
 
-const EQUIP_SLOT_ICONS = {
-  legs: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="-28.35 0 485.56 485.56"><defs><mask id="legs" fill="#000"><rect width="100%" height="100%" fill="#fff"></rect><path d="m220.74 93.9-.6 3.86c-.95 6.1-1.91 12.34-2.88 18.63-.2 1.28-.4 2.56-.62 3.85H131.9a13.17 13.17 0 1 1 0-26.34zm-6.98 44.65c-.17 1.16-.35 2.31-.54 3.46-1 6.34-2 12.58-2.88 18.63-.22 1.43-.43 2.85-.65 4.25H131.9a13.17 13.17 0 1 1 0-26.34zm-6.83 44.64c-.27 1.84-.54 3.64-.79 5.4-1 6.92-1.86 13.21-2.55 18.64-.1.79-.2 1.55-.29 2.3h-65.59a13.17 13.17 0 0 1 0-26.34zm5.5 70.98h-68.9a13.17 13.17 0 0 1 0-26.34h58.36a28.59 28.59 0 0 0 .73 3.85c1.36 5.16 4.13 11.55 7.79 18.63.66 1.27 1.34 2.56 2 3.86"></path></mask></defs><g mask="url(#legs)"><path d="M428.86 405.21c-87.35 85-193.32 73.36-193.32 73.36s0-5.81-3.49-16.3c-22.13-4.66-75.7-1.16-81.52-1.16s-17.47 18.63-21 24.45c-15.13 0-103.65-25.62-117.62-43.09-7-22.13 15.14-152.56 27.95-211.95C-22.99 61.65 7.29 12.78 7.29 12.78c64-21 101.31-12.82 138.58 1.16s80.35 5.82 83.85 9.31c1.44 1.45-3.13 32.87-9 70.68l-.6 3.86c-.95 6.1-1.91 12.34-2.88 18.63-.2 1.28-.4 2.56-.62 3.85-1 6.11-1.92 12.25-2.88 18.31-.17 1.16-.35 2.31-.54 3.46-1 6.34-2 12.58-2.88 18.63-.22 1.43-.43 2.85-.65 4.25-1 6.38-1.9 12.52-2.76 18.3-.27 1.84-.54 3.64-.79 5.4-1 6.92-1.86 13.21-2.55 18.64-.1.79-.2 1.55-.29 2.3a163.08 163.08 0 0 0-1.53 16.33 17.31 17.31 0 0 0 .12 2 27.21 27.21 0 0 0 .74 3.85c1.35 5.16 4.12 11.55 7.78 18.63.66 1.27 1.34 2.56 2 3.86 15.65 28.81 43.39 66.23 47.53 75.34 74.54-1.16 111.8 17.47 111.8 17.47l33.77-7s22.14 15.14 23.3 65.22"></path></g></svg>`,
-  body: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 48c-41.6 0-80 16-80 16v80s-48-16-96-16c0 64 16 128 16 128l64 32v176h192V288l64-32s16-64 16-128c-48 0-96 16-96 16V64s-38.4-16-80-16z"/></svg>`,
-  head: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 32c-88.4 0-160 71.6-160 160v64c0 53 26 100 66 129v95h188v-95c40-29 66-76 66-129v-64c0-88.4-71.6-160-160-160z"/></svg>`,
-  "one-hand": `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M384 32L256 160 128 32 64 96l128 128-64 224h256l-64-224L448 96z"/></svg>`,
-  "two-hands": `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M448 32L320 160 256 96 192 160 64 32 0 96l128 128-64 224h128v-96h128v96h128l-64-224L512 96z"/></svg>`,
-  small: `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><circle cx="256" cy="256" r="160"/></svg>`
-};
-
 function getImageIdFromHref(href) {
   if (!href) return null;
   const match = href.match(/\/(\d+)\.image\.webp$/);
@@ -197,13 +189,14 @@ function createItemLabel(className, text, isRotated) {
   return p;
 }
 
-function createEquipSlotIcon(equipSlot, isRotated) {
-  if (!equipSlot || !EQUIP_SLOT_ICONS[equipSlot]) return null;
+function createEquipSlotIcon(equipSlotIndex, isRotated) {
+  if (equipSlotIndex === null || equipSlotIndex === undefined || !equipSlotIcons[equipSlotIndex]) return null;
   
   const div = document.createElement('div');
   div.className = 'overlay icon equip-slot injected-item-label';
   const size = isRotated ? '17px' : '20px';
-  div.innerHTML = `<svg class="icon small" fill="black" stroke="black" style="width: ${size}; height: ${size};">${EQUIP_SLOT_ICONS[equipSlot]}</svg>`;
+  const iconSvg = equipSlotIcons[equipSlotIndex];
+  div.innerHTML = iconSvg.replace('<svg ', `<svg style="width: ${size}; height: ${size}; fill: black; stroke: black;" `);
   
   if (isRotated) {
     div.style.cssText = `
@@ -249,8 +242,8 @@ function processItemCard(button) {
   if (item.cost) {
     button.appendChild(createItemLabel('cost', item.cost, isRotated));
   }
-  if (item.equip_slot) {
-    const icon = createEquipSlotIcon(item.equip_slot, isRotated);
+  if (item.equip_slot_icon !== null && item.equip_slot_icon !== undefined) {
+    const icon = createEquipSlotIcon(item.equip_slot_icon, isRotated);
     if (icon) button.appendChild(icon);
   }
   
@@ -332,9 +325,10 @@ async function init() {
 
   // Load item cards manifest
   const itemResponse = await fetch(chrome.runtime.getURL('itemcards.json'));
-  const itemCards = await itemResponse.json();
-  buildItemCardLookup(itemCards);
-  console.log('[Card Injector] Loaded item cards:', Object.keys(itemCardsByImageId).length, 'items');
+  const itemData = await itemResponse.json();
+  equipSlotIcons = itemData.equip_slot_icons || [];
+  buildItemCardLookup(itemData.items || []);
+  console.log('[Card Injector] Loaded item cards:', Object.keys(itemCardsByImageId).length, 'items,', equipSlotIcons.length, 'icons');
   
   processAllCards();
   processAllItemCards();
