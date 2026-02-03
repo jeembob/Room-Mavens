@@ -144,7 +144,7 @@ function removeInjectedLabels(button) {
   if (svg) svg.style.outline = '';
 }
 
-function createItemLabel(className, text, isRotated) {
+function createItemLabel(className, text) {
   const p = document.createElement('p');
   p.className = `${className} top-half germania shadow injected-item-label`;
   p.textContent = text;
@@ -158,70 +158,39 @@ function createItemLabel(className, text, isRotated) {
   `;
   
   if (className === 'name') {
-    if (isRotated) {
-      p.style.cssText = baseStyle + `
-        top: calc(55% + 5px);
-        right: 5px;
-        font-size: 12px;
-        transform: rotate(90deg);
-        transform-origin: top right;
-      `;
-    } else {
-      p.style.cssText = baseStyle + `
-        top: 5px;
-        left: 5px;
-        font-size: 14px;
-      `;
-    }
+    p.style.cssText = baseStyle + `
+      top: 5px;
+      left: 5px;
+      font-size: 14px;
+    `;
   } else if (className === 'cost') {
-    if (isRotated) {
-      p.style.cssText = baseStyle + `
-        bottom: 5px;
-        left: 50%;
-        font-size: 14px;
-        transform: translateX(-50%) rotate(90deg);
-      `;
-    } else {
-      p.style.cssText = baseStyle + `
-        top: 50%;
-        right: 5px;
-        transform: translateY(-50%);
-        font-size: 16px;
-      `;
-    }
+    p.style.cssText = baseStyle + `
+      top: 50%;
+      right: 5px;
+      transform: translateY(-50%);
+      font-size: 16px;
+    `;
   }
   
   return p;
 }
 
-function createEquipSlotIcon(equipSlotIndex, isRotated) {
+function createEquipSlotIcon(equipSlotIndex) {
   if (equipSlotIndex === null || equipSlotIndex === undefined || !equipSlotIcons[equipSlotIndex]) return null;
   
   const div = document.createElement('div');
   div.className = 'overlay icon equip-slot injected-item-label';
-  const size = isRotated ? '17px' : '20px';
   const iconSvg = equipSlotIcons[equipSlotIndex];
-  div.innerHTML = iconSvg.replace('<svg ', `<svg style="width: ${size}; height: ${size}; fill: black; stroke: black;" `);
+  div.innerHTML = iconSvg.replace('<svg ', `<svg style="width: 20px; height: 20px; fill: black; stroke: black;" `);
   
-  if (isRotated) {
-    div.style.cssText = `
-      position: absolute;
-      top: 50%;
-      left: 5px;
-      transform: translateY(-50%) rotate(90deg);
-      z-index: 10;
-      pointer-events: none;
-    `;
-  } else {
-    div.style.cssText = `
-      position: absolute;
-      bottom: 5px;
-      left: 50%;
-      transform: translateX(-50%);
-      z-index: 10;
-      pointer-events: none;
-    `;
-  }
+  div.style.cssText = `
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    pointer-events: none;
+  `;
   
   return div;
 }
@@ -246,19 +215,17 @@ function processItemCard(button) {
   
   removeInjectedLabels(button);
   
-  const isRotated = svg.classList.contains('rotate');
-  
   button.style.position = 'relative';
   button.dataset.injectedImageId = imageId;
   
   if (item.name) {
-    button.appendChild(createItemLabel('name', item.name, isRotated));
+    button.appendChild(createItemLabel('name', item.name));
   }
   if (item.cost) {
-    button.appendChild(createItemLabel('cost', item.cost, isRotated));
+    button.appendChild(createItemLabel('cost', item.cost));
   }
   if (item.equip_slot_icon !== null && item.equip_slot_icon !== undefined) {
-    const icon = createEquipSlotIcon(item.equip_slot_icon, isRotated);
+    const icon = createEquipSlotIcon(item.equip_slot_icon);
     if (icon) button.appendChild(icon);
   }
   
