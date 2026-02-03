@@ -149,20 +149,22 @@ function setupMutationObserver() {
   });
 }
 
-function init() {
-  chrome.storage.local.get(['enabled'], (result) => {
-    if (result.enabled === false) {
-      console.log('[Card Injector] Disabled');
-      return;
-    }
-    
-    buildCardLookup(CARD_MANIFEST);
-    console.log('[Card Injector] Loaded manifest:', Object.keys(CARD_MANIFEST).length, 'characters');
-    
-    processAllCards();
-    setupMutationObserver();
-    console.log('[Card Injector] Active and watching for cards');
-  });
+async function init() {
+  const result = await chrome.storage.local.get(['enabled']);
+  if (result.enabled === false) {
+    console.log('[Card Injector] Disabled');
+    return;
+  }
+
+  const response = await fetch(chrome.runtime.getURL('cards.json'));
+  const manifest = await response.json();
+  
+  buildCardLookup(manifest);
+  console.log('[Card Injector] Loaded manifest:', Object.keys(manifest).length, 'characters');
+  
+  processAllCards();
+  setupMutationObserver();
+  console.log('[Card Injector] Active and watching for cards');
 }
 
 init();
