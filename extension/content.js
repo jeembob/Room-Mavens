@@ -164,10 +164,10 @@ function createItemLabel(className, text, isRotated) {
     if (isRotated) {
       p.style.cssText = baseStyle + `
         top: 5px;
-        left: 5px;
+        right: 5px;
         font-size: 12px;
         transform: rotate(90deg);
-        transform-origin: top left;
+        transform-origin: top right;
       `;
     } else {
       p.style.cssText = baseStyle + `
