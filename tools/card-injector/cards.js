@@ -1,0 +1,33 @@
+const CARD_MANIFEST = {
+  "Bruiser": [
+    "balanced-measure",
+    "brute-force",
+    "crippling-offensive",
+    "defensive-tactics",
+    "eye-for-an-eye",
+    "face-your-end",
+    "fearsome-taunt",
+    "frenzied-onslaught",
+    "grab-and-go",
+    "hook-and-chain",
+    "immovable-phalanx",
+    "intimidating-growl",
+    "juggernaut",
+    "leaping-cleave",
+    "leg-fly",
+    "overwhelming-assault",
+    "provoking-roar",
+    "push-through",
+    "run-through",
+    "selfish-retribution",
+    "shield-bash",
+    "skewer",
+    "skirmishing-maneuver",
+    "spare-dagger",
+    "sweeping-blow",
+    "trample",
+    "unstoppable-charge",
+    "warding-strength",
+    "whirlwind"
+  ]
+};
