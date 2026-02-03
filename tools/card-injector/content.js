@@ -1,15 +1,53 @@
 const IMAGE_BASE_URL = 'https://raw.githubusercontent.com/jeembob/Room-Mavens/main/images';
 
 let cardNameToCharacter = {};
+let normalizedToOriginal = {};
 
-function transformNameToFilename(displayName) {
-  return displayName.toLowerCase().replace(/\s+/g, '-');
+function normalizeForMatch(name) {
+  return name
+    .toLowerCase()
+    .replace(/[''`]/g, '')        // strip apostrophes
+    .replace(/[^\w\s-]/g, '')     // strip other punctuation
+    .replace(/\s+/g, '-')         // spaces to hyphens
+    .replace(/-+/g, '-')          // collapse multiple hyphens
+    .replace(/^-|-$/g, '');       // trim leading/trailing hyphens
+}
+
+function levenshtein(a, b) {
+  if (a.length === 0) return b.length;
+  if (b.length === 0) return a.length;
+  const matrix = [];
+  for (let i = 0; i <= b.length; i++) matrix[i] = [i];
+  for (let j = 0; j <= a.length; j++) matrix[0][j] = j;
+  for (let i = 1; i <= b.length; i++) {
+    for (let j = 1; j <= a.length; j++) {
+      matrix[i][j] = a[j - 1] === b[i - 1]
+        ? matrix[i - 1][j - 1]
+        : Math.min(matrix[i - 1][j - 1] + 1, matrix[i][j - 1] + 1, matrix[i - 1][j] + 1);
+    }
+  }
+  return matrix[b.length][a.length];
+}
+
+function findClosestMatch(normalized) {
+  let bestMatch = null;
+  let bestDistance = Infinity;
+  for (const key of Object.keys(normalizedToOriginal)) {
+    const dist = levenshtein(normalized, key);
+    if (dist < bestDistance && dist <= 2) {
+      bestDistance = dist;
+      bestMatch = key;
+    }
+  }
+  return bestMatch ? normalizedToOriginal[bestMatch] : null;
 }
 
 function buildCardLookup(manifest) {
   for (const [character, cards] of Object.entries(manifest)) {
     for (const cardName of cards) {
       cardNameToCharacter[cardName] = character;
+      const normalized = normalizeForMatch(cardName);
+      normalizedToOriginal[normalized] = cardName;
     }
   }
 }
@@ -19,9 +57,15 @@ function findCardName(svgElement) {
   for (const textEl of textElements) {
     const text = textEl.textContent.trim();
     if (!text) continue;
-    const filename = transformNameToFilename(text);
-    if (cardNameToCharacter[filename]) {
-      return { displayName: text, filename };
+    const normalized = normalizeForMatch(text);
+    // Try exact match first
+    let originalFilename = normalizedToOriginal[normalized];
+    // Fall back to fuzzy match (within 2 edits)
+    if (!originalFilename) {
+      originalFilename = findClosestMatch(normalized);
+    }
+    if (originalFilename) {
+      return { displayName: text, filename: originalFilename };
     }
   }
   return null;
