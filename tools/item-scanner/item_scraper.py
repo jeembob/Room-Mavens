@@ -1,6 +1,6 @@
 import asyncio
 import json
-import os
+import re
 from pathlib import Path
 from playwright.async_api import async_playwright
 
@@ -50,6 +50,15 @@ async def scrape_items():
                 code = await code_elem.inner_text() if code_elem else str(i)
                 code = code.strip()
                 
+                # Extract equip slot type from the mask id in the SVG
+                equip_slot_elem = await card.query_selector("div.overlay.icon.equip-slot svg.icon")
+                equip_slot = None
+                if equip_slot_elem:
+                    svg_html = await equip_slot_elem.inner_html()
+                    match = re.search(r'mask id="([^"]+)"', svg_html)
+                    if match:
+                        equip_slot = match.group(1)
+                
                 # Extract image URL from the image tag inside the SVG
                 image_elem = await card.query_selector("svg.fs_image image")
                 image_href = await image_elem.get_attribute("href") if image_elem else None
@@ -71,6 +80,7 @@ async def scrape_items():
                         "name": name,
                         "code": code,
                         "cost": cost,
+                        "equip_slot": equip_slot,
                         "image_url": image_url,
                         "local_image": f"images/Items/{filename}"
                     })
