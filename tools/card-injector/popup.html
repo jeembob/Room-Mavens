@@ -56,6 +56,20 @@
       font-size: 12px;
       color: #666;
     }
+    .refresh-btn {
+      margin-top: 12px;
+      width: 100%;
+      padding: 8px;
+      background: #4a5568;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    .refresh-btn:hover {
+      background: #2d3748;
+    }
   </style>
 </head>
 <body>
@@ -67,6 +81,7 @@
     </label>
   </div>
   <div class="status" id="status">Loading...</div>
+  <button class="refresh-btn" id="refresh">↻ Refresh Page</button>
   <script src="popup.js"></script>
 </body>
 </html>
