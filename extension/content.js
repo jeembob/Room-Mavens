@@ -157,6 +157,7 @@ function createItemLabel(className, text, isRotated) {
     margin: 0;
     z-index: 10;
     pointer-events: none;
+    color: white;
   `;
   
   if (className === 'name') {
@@ -164,7 +165,7 @@ function createItemLabel(className, text, isRotated) {
       p.style.cssText = baseStyle + `
         top: 5px;
         left: 5px;
-        font-size: 14px;
+        font-size: 12px;
         transform: rotate(90deg);
         transform-origin: top left;
       `;
@@ -172,23 +173,24 @@ function createItemLabel(className, text, isRotated) {
       p.style.cssText = baseStyle + `
         top: 5px;
         left: 5px;
-        font-size: 18px;
+        font-size: 14px;
       `;
     }
   } else if (className === 'cost') {
     if (isRotated) {
       p.style.cssText = baseStyle + `
-        bottom: 5px;
+        top: 50%;
         left: 5px;
-        font-size: 16px;
-        transform: rotate(90deg);
-        transform-origin: bottom left;
+        font-size: 14px;
+        transform: rotate(90deg) translateX(-50%);
+        transform-origin: top left;
       `;
     } else {
       p.style.cssText = baseStyle + `
-        bottom: 5px;
-        left: 5px;
-        font-size: 20px;
+        top: 50%;
+        right: 5px;
+        transform: translateY(-50%);
+        font-size: 16px;
       `;
     }
   }
@@ -201,15 +203,15 @@ function createEquipSlotIcon(equipSlot, isRotated) {
   
   const div = document.createElement('div');
   div.className = 'overlay icon equip-slot injected-item-label';
-  const size = isRotated ? '20px' : '24px';
-  div.innerHTML = `<svg class="icon small" fill="#6B7C9B" stroke="black" style="width: ${size}; height: ${size};">${EQUIP_SLOT_ICONS[equipSlot]}</svg>`;
+  const size = isRotated ? '17px' : '20px';
+  div.innerHTML = `<svg class="icon small" fill="black" stroke="black" style="width: ${size}; height: ${size};">${EQUIP_SLOT_ICONS[equipSlot]}</svg>`;
   
   if (isRotated) {
     div.style.cssText = `
       position: absolute;
-      bottom: 50%;
-      right: 5px;
-      transform: rotate(90deg) translateX(50%);
+      top: 50%;
+      left: 5px;
+      transform: rotate(90deg) translateY(-50%);
       z-index: 10;
       pointer-events: none;
     `;
