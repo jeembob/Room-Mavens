@@ -1,9 +1,13 @@
 {
   "manifest_version": 3,
   "name": "Gloomhaven Card Injector",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Replaces placeholder card images on gloomhaven.smigiel.us with full card artwork",
-  "permissions": [],
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Card Injector"
+  },
   "host_permissions": [
     "https://gloomhaven.smigiel.us/*"
   ],

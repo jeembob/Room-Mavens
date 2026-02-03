@@ -101,12 +101,19 @@ function setupMutationObserver() {
 }
 
 function init() {
-  buildCardLookup(CARD_MANIFEST);
-  console.log('[Card Injector] Loaded manifest:', Object.keys(CARD_MANIFEST).length, 'characters');
-  
-  processAllCards();
-  setupMutationObserver();
-  console.log('[Card Injector] Active and watching for cards');
+  chrome.storage.local.get(['enabled'], (result) => {
+    if (result.enabled === false) {
+      console.log('[Card Injector] Disabled');
+      return;
+    }
+    
+    buildCardLookup(CARD_MANIFEST);
+    console.log('[Card Injector] Loaded manifest:', Object.keys(CARD_MANIFEST).length, 'characters');
+    
+    processAllCards();
+    setupMutationObserver();
+    console.log('[Card Injector] Active and watching for cards');
+  });
 }
 
 init();
