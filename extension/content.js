@@ -3,7 +3,7 @@ const IMAGE_BASE_URL = 'https://raw.githubusercontent.com/jeembob/Room-Mavens/ma
 let cardNameToCharacter = {};
 let normalizedToOriginal = {};
 let itemCardsByImageId = {};
-let equipSlotIcons = [];
+
 
 function normalizeForMatch(name) {
   return name
@@ -157,13 +157,7 @@ function createItemLabel(className, text) {
     color: white;
   `;
   
-  if (className === 'name') {
-    p.style.cssText = baseStyle + `
-      top: 5px;
-      left: 5px;
-      font-size: 14px;
-    `;
-  } else if (className === 'cost') {
+  if (className === 'cost') {
     p.style.cssText = baseStyle + `
       top: 50%;
       right: 5px;
@@ -173,26 +167,6 @@ function createItemLabel(className, text) {
   }
   
   return p;
-}
-
-function createEquipSlotIcon(equipSlotIndex) {
-  if (equipSlotIndex === null || equipSlotIndex === undefined || !equipSlotIcons[equipSlotIndex]) return null;
-  
-  const div = document.createElement('div');
-  div.className = 'overlay icon equip-slot injected-item-label';
-  const iconSvg = equipSlotIcons[equipSlotIndex];
-  div.innerHTML = iconSvg.replace('<svg ', `<svg style="width: 20px; height: 20px; fill: black; stroke: black;" `);
-  
-  div.style.cssText = `
-    position: absolute;
-    bottom: 5px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 10;
-    pointer-events: none;
-  `;
-  
-  return div;
 }
 
 function processItemCard(button) {
@@ -218,15 +192,8 @@ function processItemCard(button) {
   button.style.position = 'relative';
   button.dataset.injectedImageId = imageId;
   
-  if (item.name) {
-    button.appendChild(createItemLabel('name', item.name));
-  }
   if (item.cost) {
     button.appendChild(createItemLabel('cost', item.cost));
-  }
-  if (item.equip_slot_icon !== null && item.equip_slot_icon !== undefined) {
-    const icon = createEquipSlotIcon(item.equip_slot_icon);
-    if (icon) button.appendChild(icon);
   }
   
   svg.style.outline = '3px solid cyan';
@@ -308,9 +275,8 @@ async function init() {
   // Load item cards manifest
   const itemResponse = await fetch(chrome.runtime.getURL('itemcards.json'));
   const itemData = await itemResponse.json();
-  equipSlotIcons = itemData.equip_slot_icons || [];
   buildItemCardLookup(itemData.items || []);
-  console.log('[Card Injector] Loaded item cards:', Object.keys(itemCardsByImageId).length, 'items,', equipSlotIcons.length, 'icons');
+  console.log('[Card Injector] Loaded item cards:', Object.keys(itemCardsByImageId).length, 'items');
   
   processAllCards();
   processAllItemCards();
