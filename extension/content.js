@@ -164,6 +164,15 @@ function createItemLabel(className, text) {
       transform: translateY(-50%);
       font-size: 16px;
     `;
+  } else if (className === 'description') {
+    p.style.cssText = baseStyle + `
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 12px;
+      text-align: center;
+      width: 80%;
+    `;
   }
   
   return p;
@@ -194,6 +203,10 @@ function processItemCard(button) {
   
   if (item.cost) {
     button.appendChild(createItemLabel('cost', item.cost));
+  }
+  
+  if (item.description) {
+    button.appendChild(createItemLabel('description', item.description));
   }
   
   svg.style.outline = '3px solid cyan';

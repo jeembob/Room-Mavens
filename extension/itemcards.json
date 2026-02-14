@@ -14,7 +14,8 @@
       "cost": "15",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8639.image.webp",
       "local_image": "images/Items/1_Weathered_Boots.webp",
-      "equip_slot_icon": 0
+      "equip_slot_icon": 0,
+      "description": ""
     },
     {
       "name": "Winged Shoes",
@@ -22,7 +23,8 @@
       "cost": "15",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8640.image.webp",
       "local_image": "images/Items/2_Winged_Shoes.webp",
-      "equip_slot_icon": 0
+      "equip_slot_icon": 0,
+      "description": ""
     },
     {
       "name": "Hide Armor",
@@ -30,7 +32,8 @@
       "cost": "10",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8641.image.webp",
       "local_image": "images/Items/3_Hide_Armor.webp",
-      "equip_slot_icon": 1
+      "equip_slot_icon": 1,
+      "description": ""
     },
     {
       "name": "Leather Armor",
@@ -38,7 +41,8 @@
       "cost": "10",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8642.image.webp",
       "local_image": "images/Items/4_Leather_Armor.webp",
-      "equip_slot_icon": 1
+      "equip_slot_icon": 1,
+      "description": ""
     },
     {
       "name": "Scouting Lens",
@@ -46,7 +50,8 @@
       "cost": "10",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8643.image.webp",
       "local_image": "images/Items/5_Scouting_Lens.webp",
-      "equip_slot_icon": 2
+      "equip_slot_icon": 2,
+      "description": ""
     },
     {
       "name": "Amulet of Life",
@@ -54,7 +59,8 @@
       "cost": "15",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8644.image.webp",
       "local_image": "images/Items/6_Amulet_of_Life.webp",
-      "equip_slot_icon": 2
+      "equip_slot_icon": 2,
+      "description": ""
     },
     {
       "name": "Poison Dagger",
@@ -62,7 +68,8 @@
       "cost": "15",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8645.image.webp",
       "local_image": "images/Items/7_Poison_Dagger.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Heater Shield",
@@ -70,7 +77,8 @@
       "cost": "15",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8646.image.webp",
       "local_image": "images/Items/8_Heater_Shield.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Focusing Rod",
@@ -78,7 +86,8 @@
       "cost": "10",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8647.image.webp",
       "local_image": "images/Items/9_Focusing_Rod.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Simple Bow",
@@ -86,7 +95,8 @@
       "cost": "15",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8648.image.webp",
       "local_image": "images/Items/10_Simple_Bow.webp",
-      "equip_slot_icon": 4
+      "equip_slot_icon": 4,
+      "description": ""
     },
     {
       "name": "Healing Potion",
@@ -94,7 +104,8 @@
       "cost": "10",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8649.image.webp",
       "local_image": "images/Items/11_Healing_Potion.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Stamina Potion",
@@ -102,7 +113,8 @@
       "cost": "10",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8650.image.webp",
       "local_image": "images/Items/12_Stamina_Potion.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Element Potion",
@@ -110,7 +122,8 @@
       "cost": "10",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8651.image.webp",
       "local_image": "images/Items/13_Element_Potion.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Studded Leather",
@@ -118,7 +131,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8652.image.webp",
       "local_image": "images/Items/14_Studded_Leather.webp",
-      "equip_slot_icon": 1
+      "equip_slot_icon": 1,
+      "description": ""
     },
     {
       "name": "Comfortable Shoes",
@@ -126,7 +140,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8653.image.webp",
       "local_image": "images/Items/15_Comfortable_Shoes.webp",
-      "equip_slot_icon": 0
+      "equip_slot_icon": 0,
+      "description": ""
     },
     {
       "name": "Circlet of Elements",
@@ -134,7 +149,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8654.image.webp",
       "local_image": "images/Items/16_Circlet_of_Elements.webp",
-      "equip_slot_icon": 2
+      "equip_slot_icon": 2,
+      "description": ""
     },
     {
       "name": "Boots of Speed",
@@ -142,7 +158,8 @@
       "cost": "30",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8655.image.webp",
       "local_image": "images/Items/17_Boots_of_Speed.webp",
-      "equip_slot_icon": 0
+      "equip_slot_icon": 0,
+      "description": ""
     },
     {
       "name": "Heavy Basinet",
@@ -150,7 +167,8 @@
       "cost": "15",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8656.image.webp",
       "local_image": "images/Items/18_Heavy_Basinet.webp",
-      "equip_slot_icon": 2
+      "equip_slot_icon": 2,
+      "description": ""
     },
     {
       "name": "Warden's Robes",
@@ -158,7 +176,8 @@
       "cost": "30",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8657.image.webp",
       "local_image": "images/Items/19_Wardens_Robes.webp",
-      "equip_slot_icon": 1
+      "equip_slot_icon": 1,
+      "description": ""
     },
     {
       "name": "Hooked Chain",
@@ -166,7 +185,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8658.image.webp",
       "local_image": "images/Items/20_Hooked_Chain.webp",
-      "equip_slot_icon": 4
+      "equip_slot_icon": 4,
+      "description": ""
     },
     {
       "name": "Power Potion",
@@ -174,7 +194,8 @@
       "cost": "15",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8659.image.webp",
       "local_image": "images/Items/21_Power_Potion.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Iron Spear",
@@ -182,7 +203,8 @@
       "cost": "25",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8660.image.webp",
       "local_image": "images/Items/22_Iron_Spear.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Jagged Sword",
@@ -190,7 +212,8 @@
       "cost": "25",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8661.image.webp",
       "local_image": "images/Items/23_Jagged_Sword.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Black Knife",
@@ -198,7 +221,8 @@
       "cost": "25",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8662.image.webp",
       "local_image": "images/Items/24_Black_Knife.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Weighted Net",
@@ -206,7 +230,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8663.image.webp",
       "local_image": "images/Items/25_Weighted_Net.webp",
-      "equip_slot_icon": 4
+      "equip_slot_icon": 4,
+      "description": ""
     },
     {
       "name": "Eagle-Eye Goggles",
@@ -214,7 +239,8 @@
       "cost": "30",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8664.image.webp",
       "local_image": "images/Items/26_Eagle-Eye_Goggles.webp",
-      "equip_slot_icon": 2
+      "equip_slot_icon": 2,
+      "description": ""
     },
     {
       "name": "Iron Helmet",
@@ -222,7 +248,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8665.image.webp",
       "local_image": "images/Items/27_Iron_Helmet.webp",
-      "equip_slot_icon": 2
+      "equip_slot_icon": 2,
+      "description": ""
     },
     {
       "name": "Chainmail",
@@ -230,7 +257,8 @@
       "cost": "25",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8666.image.webp",
       "local_image": "images/Items/28_Chainmail.webp",
-      "equip_slot_icon": 1
+      "equip_slot_icon": 1,
+      "description": ""
     },
     {
       "name": "Nimble Legguards",
@@ -238,7 +266,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8667.image.webp",
       "local_image": "images/Items/29_Nimble_Legguards.webp",
-      "equip_slot_icon": 0
+      "equip_slot_icon": 0,
+      "description": ""
     },
     {
       "name": "Armorbane Bow",
@@ -246,7 +275,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8668.image.webp",
       "local_image": "images/Items/30_Armorbane_Bow.webp",
-      "equip_slot_icon": 4
+      "equip_slot_icon": 4,
+      "description": ""
     },
     {
       "name": "Staff of Summoning",
@@ -254,7 +284,8 @@
       "cost": "30",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8669.image.webp",
       "local_image": "images/Items/31_Staff_of_Summoning.webp",
-      "equip_slot_icon": 4
+      "equip_slot_icon": 4,
+      "description": ""
     },
     {
       "name": "Black Censer",
@@ -262,7 +293,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8670.image.webp",
       "local_image": "images/Items/32_Black_Censer.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Second Skin",
@@ -270,7 +302,8 @@
       "cost": "25",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8671.image.webp",
       "local_image": "images/Items/33_Second_Skin.webp",
-      "equip_slot_icon": 1
+      "equip_slot_icon": 1,
+      "description": ""
     },
     {
       "name": "Battle Axe",
@@ -278,7 +311,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8672.image.webp",
       "local_image": "images/Items/34_Battle_Axe.webp",
-      "equip_slot_icon": 4
+      "equip_slot_icon": 4,
+      "description": ""
     },
     {
       "name": "Tower Shield",
@@ -286,7 +320,8 @@
       "cost": "30",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8673.image.webp",
       "local_image": "images/Items/35_Tower_Shield.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Moon Earring",
@@ -294,7 +329,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8674.image.webp",
       "local_image": "images/Items/36_Moon_Earring.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Major Healing Potion",
@@ -302,7 +338,8 @@
       "cost": "25",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8675.image.webp",
       "local_image": "images/Items/37_Major_Healing_Potion.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Heavy Greaves",
@@ -310,7 +347,8 @@
       "cost": "25",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8676.image.webp",
       "local_image": "images/Items/38_Heavy_Greaves.webp",
-      "equip_slot_icon": 0
+      "equip_slot_icon": 0,
+      "description": ""
     },
     {
       "name": "Ring of Skulls",
@@ -318,7 +356,8 @@
       "cost": "40",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8677.image.webp",
       "local_image": "images/Items/39_Ring_of_Skulls.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Shadow Armor",
@@ -326,7 +365,8 @@
       "cost": "25",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8678.image.webp",
       "local_image": "images/Items/40_Shadow_Armor.webp",
-      "equip_slot_icon": 1
+      "equip_slot_icon": 1,
+      "description": ""
     },
     {
       "name": "Kinetic Treads",
@@ -334,7 +374,8 @@
       "cost": "30",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8679.image.webp",
       "local_image": "images/Items/41_Kinetic_Treads.webp",
-      "equip_slot_icon": 0
+      "equip_slot_icon": 0,
+      "description": ""
     },
     {
       "name": "Endurance Footwraps",
@@ -342,7 +383,8 @@
       "cost": "40",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8680.image.webp",
       "local_image": "images/Items/42_Endurance_Footwraps.webp",
-      "equip_slot_icon": 0
+      "equip_slot_icon": 0,
+      "description": ""
     },
     {
       "name": "Hawk Helm",
@@ -350,7 +392,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8681.image.webp",
       "local_image": "images/Items/43_Hawk_Helm.webp",
-      "equip_slot_icon": 2
+      "equip_slot_icon": 2,
+      "description": ""
     },
     {
       "name": "Precision Bow",
@@ -358,7 +401,8 @@
       "cost": "40",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8682.image.webp",
       "local_image": "images/Items/44_Precision_Bow.webp",
-      "equip_slot_icon": 4
+      "equip_slot_icon": 4,
+      "description": ""
     },
     {
       "name": "Major Element Potion",
@@ -366,7 +410,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8683.image.webp",
       "local_image": "images/Items/45_Major_Element_Potion.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Light Targe",
@@ -374,7 +419,8 @@
       "cost": "30",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8684.image.webp",
       "local_image": "images/Items/46_Light_Targe.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Cloak of Pockets",
@@ -382,7 +428,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8685.image.webp",
       "local_image": "images/Items/47_Cloak_of_Pockets.webp",
-      "equip_slot_icon": 1
+      "equip_slot_icon": 1,
+      "description": ""
     },
     {
       "name": "Staff of Elements",
@@ -390,7 +437,8 @@
       "cost": "30",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8686.image.webp",
       "local_image": "images/Items/48_Staff_of_Elements.webp",
-      "equip_slot_icon": 4
+      "equip_slot_icon": 4,
+      "description": ""
     },
     {
       "name": "Horned Helm",
@@ -398,7 +446,8 @@
       "cost": "35",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8687.image.webp",
       "local_image": "images/Items/49_Horned_Helm.webp",
-      "equip_slot_icon": 2
+      "equip_slot_icon": 2,
+      "description": ""
     },
     {
       "name": "Robes of the Oak",
@@ -406,7 +455,8 @@
       "cost": "30",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8688.image.webp",
       "local_image": "images/Items/50_Robes_of_the_Oak.webp",
-      "equip_slot_icon": 1
+      "equip_slot_icon": 1,
+      "description": ""
     },
     {
       "name": "Heavy Mace",
@@ -414,7 +464,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8689.image.webp",
       "local_image": "images/Items/51_Heavy_Mace.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Sun Earring",
@@ -422,7 +473,8 @@
       "cost": "35",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8690.image.webp",
       "local_image": "images/Items/52_Sun_Earring.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Major Power Potion",
@@ -430,7 +482,8 @@
       "cost": "35",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8691.image.webp",
       "local_image": "images/Items/53_Major_Power_Potion.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Circlet of Sanctity",
@@ -438,7 +491,8 @@
       "cost": "45",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8692.image.webp",
       "local_image": "images/Items/54_Circlet_of_Sanctity.webp",
-      "equip_slot_icon": 2
+      "equip_slot_icon": 2,
+      "description": ""
     },
     {
       "name": "Volatile Bomb",
@@ -446,7 +500,8 @@
       "cost": "40",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8693.image.webp",
       "local_image": "images/Items/55_Volatile_Bomb.webp",
-      "equip_slot_icon": 4
+      "equip_slot_icon": 4,
+      "description": ""
     },
     {
       "name": "Steel Sabatons",
@@ -454,7 +509,8 @@
       "cost": "50",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8694.image.webp",
       "local_image": "images/Items/56_Steel_Sabatons.webp",
-      "equip_slot_icon": 0
+      "equip_slot_icon": 0,
+      "description": ""
     },
     {
       "name": "Strategist's Ring",
@@ -462,7 +518,8 @@
       "cost": "30",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8695.image.webp",
       "local_image": "images/Items/57_Strategists_Ring.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Major Stamina Potion",
@@ -470,7 +527,8 @@
       "cost": "35",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8696.image.webp",
       "local_image": "images/Items/58_Major_Stamina_Potion.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Telescopic Lens",
@@ -478,7 +536,8 @@
       "cost": "35",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8697.image.webp",
       "local_image": "images/Items/59_Telescopic_Lens.webp",
-      "equip_slot_icon": 2
+      "equip_slot_icon": 2,
+      "description": ""
     },
     {
       "name": "Staff of Eminence",
@@ -486,7 +545,8 @@
       "cost": "50",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8698.image.webp",
       "local_image": "images/Items/60_Staff_of_Eminence.webp",
-      "equip_slot_icon": 4
+      "equip_slot_icon": 4,
+      "description": ""
     },
     {
       "name": "War Hammer",
@@ -494,7 +554,8 @@
       "cost": "30",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8699.image.webp",
       "local_image": "images/Items/61_War_Hammer.webp",
-      "equip_slot_icon": 4
+      "equip_slot_icon": 4,
+      "description": ""
     },
     {
       "name": "Mask of Terror",
@@ -502,7 +563,8 @@
       "cost": "50",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8700.image.webp",
       "local_image": "images/Items/62_Mask_of_Terror.webp",
-      "equip_slot_icon": 2
+      "equip_slot_icon": 2,
+      "description": ""
     },
     {
       "name": "Star Earring",
@@ -510,7 +572,8 @@
       "cost": "50",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8701.image.webp",
       "local_image": "images/Items/63_Star_Earring.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Empowering Talisman",
@@ -518,7 +581,8 @@
       "cost": "40",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8702.image.webp",
       "local_image": "images/Items/64_Empowering_Talisman.webp",
-      "equip_slot_icon": 2
+      "equip_slot_icon": 2,
+      "description": ""
     },
     {
       "name": "Long Spear",
@@ -526,7 +590,8 @@
       "cost": "40",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8703.image.webp",
       "local_image": "images/Items/65_Long_Spear.webp",
-      "equip_slot_icon": 4
+      "equip_slot_icon": 4,
+      "description": ""
     },
     {
       "name": "Cloak of Invisibility",
@@ -534,7 +599,8 @@
       "cost": "30",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8704.image.webp",
       "local_image": "images/Items/66_Cloak_of_Invisibility.webp",
-      "equip_slot_icon": 1
+      "equip_slot_icon": 1,
+      "description": ""
     },
     {
       "name": "Spiked Shoes",
@@ -542,7 +608,8 @@
       "cost": "40",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8705.image.webp",
       "local_image": "images/Items/67_Spiked_Shoes.webp",
-      "equip_slot_icon": 0
+      "equip_slot_icon": 0,
+      "description": ""
     },
     {
       "name": "Ring of Haste",
@@ -550,7 +617,8 @@
       "cost": "40",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8706.image.webp",
       "local_image": "images/Items/68_Ring_of_Haste.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Platemail",
@@ -558,7 +626,8 @@
       "cost": "35",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8707.image.webp",
       "local_image": "images/Items/69_Platemail.webp",
-      "equip_slot_icon": 1
+      "equip_slot_icon": 1,
+      "description": ""
     },
     {
       "name": "Standard Rations",
@@ -566,7 +635,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8708.image.webp",
       "local_image": "images/Items/70_Standard_Rations.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Mastercraft Crossbow",
@@ -574,7 +644,8 @@
       "cost": "35",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8709.image.webp",
       "local_image": "images/Items/71_Mastercraft_Crossbow.webp",
-      "equip_slot_icon": 4
+      "equip_slot_icon": 4,
+      "description": ""
     },
     {
       "name": "Commander's Cap",
@@ -582,7 +653,8 @@
       "cost": "30",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8710.image.webp",
       "local_image": "images/Items/72_Commanders_Cap.webp",
-      "equip_slot_icon": 2
+      "equip_slot_icon": 2,
+      "description": ""
     },
     {
       "name": "Mantle of Summoning",
@@ -590,7 +662,8 @@
       "cost": "35",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8711.image.webp",
       "local_image": "images/Items/73_Mantle_of_Summoning.webp",
-      "equip_slot_icon": 1
+      "equip_slot_icon": 1,
+      "description": ""
     },
     {
       "name": "Concealed Dagger",
@@ -598,7 +671,8 @@
       "cost": "40",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8712.image.webp",
       "local_image": "images/Items/74_Concealed_Dagger.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Opulent Hood",
@@ -606,7 +680,8 @@
       "cost": "40",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8713.image.webp",
       "local_image": "images/Items/75_Opulent_Hood.webp",
-      "equip_slot_icon": 2
+      "equip_slot_icon": 2,
+      "description": ""
     },
     {
       "name": "Merchant's Insignia",
@@ -614,7 +689,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8714.image.webp",
       "local_image": "images/Items/76_Merchants_Insignia.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Robes of Evocation",
@@ -622,7 +698,8 @@
       "cost": "35",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8715.image.webp",
       "local_image": "images/Items/77_Robes_of_Evocation.webp",
-      "equip_slot_icon": 1
+      "equip_slot_icon": 1,
+      "description": ""
     },
     {
       "name": "Reaping Scythe",
@@ -630,7 +707,8 @@
       "cost": "30",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8716.image.webp",
       "local_image": "images/Items/78_Reaping_Scythe.webp",
-      "equip_slot_icon": 4
+      "equip_slot_icon": 4,
+      "description": ""
     },
     {
       "name": "Doom Powder",
@@ -638,7 +716,8 @@
       "cost": "35",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8717.image.webp",
       "local_image": "images/Items/79_Doom_Powder.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Demonic Skull",
@@ -646,7 +725,8 @@
       "cost": "50",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8718.image.webp",
       "local_image": "images/Items/80_Demonic_Skull.webp",
-      "equip_slot_icon": 2
+      "equip_slot_icon": 2,
+      "description": ""
     },
     {
       "name": "Frigid Blade",
@@ -654,7 +734,8 @@
       "cost": "25",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8719.image.webp",
       "local_image": "images/Items/81_Frigid_Blade.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Storm Blade",
@@ -662,7 +743,8 @@
       "cost": "25",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8720.image.webp",
       "local_image": "images/Items/82_Storm_Blade.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Inferno Blade",
@@ -670,7 +752,8 @@
       "cost": "25",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8721.image.webp",
       "local_image": "images/Items/83_Inferno_Blade.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Tremor Blade",
@@ -678,7 +761,8 @@
       "cost": "25",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8722.image.webp",
       "local_image": "images/Items/84_Tremor_Blade.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Brilliant Blade",
@@ -686,7 +770,8 @@
       "cost": "25",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8723.image.webp",
       "local_image": "images/Items/85_Brilliant_Blade.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Night Blade",
@@ -694,7 +779,8 @@
       "cost": "25",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8724.image.webp",
       "local_image": "images/Items/86_Night_Blade.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Versatile Dagger",
@@ -702,7 +788,8 @@
       "cost": "25",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8725.image.webp",
       "local_image": "images/Items/87_Versatile_Dagger.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Spiked Shield",
@@ -710,7 +797,8 @@
       "cost": "35",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8726.image.webp",
       "local_image": "images/Items/88_Spiked_Shield.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Swordedge Armor",
@@ -718,7 +806,8 @@
       "cost": "40",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8727.image.webp",
       "local_image": "images/Items/89_Swordedge_Armor.webp",
-      "equip_slot_icon": 1
+      "equip_slot_icon": 1,
+      "description": ""
     },
     {
       "name": "Blinking Cape",
@@ -726,7 +815,8 @@
       "cost": "35",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8728.image.webp",
       "local_image": "images/Items/90_Blinking_Cape.webp",
-      "equip_slot_icon": 1
+      "equip_slot_icon": 1,
+      "description": ""
     },
     {
       "name": "Boots of Quickness",
@@ -734,7 +824,8 @@
       "cost": "45",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8729.image.webp",
       "local_image": "images/Items/91_Boots_of_Quickness.webp",
-      "equip_slot_icon": 0
+      "equip_slot_icon": 0,
+      "description": ""
     },
     {
       "name": "Stun Powder",
@@ -742,7 +833,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8730.image.webp",
       "local_image": "images/Items/92_Stun_Powder.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Scroll of Ferocity",
@@ -750,7 +842,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8731.image.webp",
       "local_image": "images/Items/93_Scroll_of_Ferocity.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Scroll of Healing",
@@ -758,7 +851,8 @@
       "cost": "15",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8732.image.webp",
       "local_image": "images/Items/94_Scroll_of_Healing.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Scroll of Shielding",
@@ -766,7 +860,8 @@
       "cost": "15",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8733.image.webp",
       "local_image": "images/Items/95_Scroll_of_Shielding.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Scroll of Swiftness",
@@ -774,7 +869,8 @@
       "cost": "10",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8734.image.webp",
       "local_image": "images/Items/96_Scroll_of_Swiftness.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Shoes of Happiness",
@@ -782,7 +878,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8735.image.webp",
       "local_image": "images/Items/97_Shoes_of_Happiness.webp",
-      "equip_slot_icon": 0
+      "equip_slot_icon": 0,
+      "description": ""
     },
     {
       "name": "Cloak of Phasing",
@@ -790,7 +887,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8736.image.webp",
       "local_image": "images/Items/98_Cloak_of_Phasing.webp",
-      "equip_slot_icon": 1
+      "equip_slot_icon": 1,
+      "description": ""
     },
     {
       "name": "Unstable Explosives",
@@ -798,7 +896,8 @@
       "cost": "30",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8737.image.webp",
       "local_image": "images/Items/99_Unstable_Explosives.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Charged Boots",
@@ -806,7 +905,8 @@
       "cost": "30",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8738.image.webp",
       "local_image": "images/Items/100_Charged_Boots.webp",
-      "equip_slot_icon": 0
+      "equip_slot_icon": 0,
+      "description": ""
     },
     {
       "name": "Cure Potion",
@@ -814,7 +914,8 @@
       "cost": "10",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8739.image.webp",
       "local_image": "images/Items/101_Cure_Potion.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Steel Ring",
@@ -822,7 +923,8 @@
       "cost": "15",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8740.image.webp",
       "local_image": "images/Items/102_Steel_Ring.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": "When damaged by an attack, gain Shield 4 for the attack. Steel Ring is consumed on use."
     },
     {
       "name": "Ranger's Hood",
@@ -830,7 +932,8 @@
       "cost": "25",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8741.image.webp",
       "local_image": "images/Items/103_Rangers_Hood.webp",
-      "equip_slot_icon": 2
+      "equip_slot_icon": 2,
+      "description": ""
     },
     {
       "name": "Warding Rod",
@@ -838,7 +941,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8742.image.webp",
       "local_image": "images/Items/104_Warding_Rod.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Lucky Eye",
@@ -846,7 +950,8 @@
       "cost": "40",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8743.image.webp",
       "local_image": "images/Items/105_Lucky_Eye.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Steam Armor",
@@ -854,7 +959,8 @@
       "cost": "30",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8744.image.webp",
       "local_image": "images/Items/106_Steam_Armor.webp",
-      "equip_slot_icon": 1
+      "equip_slot_icon": 1,
+      "description": ""
     },
     {
       "name": "Necklace of Teeth",
@@ -862,7 +968,8 @@
       "cost": "30",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8745.image.webp",
       "local_image": "images/Items/107_Necklace_of_Teeth.webp",
-      "equip_slot_icon": 2
+      "equip_slot_icon": 2,
+      "description": ""
     },
     {
       "name": "Thief's Hood",
@@ -870,7 +977,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8746.image.webp",
       "local_image": "images/Items/108_Thiefs_Hood.webp",
-      "equip_slot_icon": 2
+      "equip_slot_icon": 2,
+      "description": ""
     },
     {
       "name": "Ancient Drill",
@@ -878,7 +986,8 @@
       "cost": "30",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8747.image.webp",
       "local_image": "images/Items/109_Ancient_Drill.webp",
-      "equip_slot_icon": 4
+      "equip_slot_icon": 4,
+      "description": ""
     },
     {
       "name": "Fueled Falchion",
@@ -886,7 +995,8 @@
       "cost": "30",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8748.image.webp",
       "local_image": "images/Items/110_Fueled_Falchion.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Skull of Hatred",
@@ -894,7 +1004,8 @@
       "cost": "40",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8749.image.webp",
       "local_image": "images/Items/111_Skull_of_Hatred.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Curious Gear",
@@ -902,7 +1013,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8750.image.webp",
       "local_image": "images/Items/112_Curious_Gear.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Black Card",
@@ -910,7 +1022,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8751.image.webp",
       "local_image": "images/Items/113_Black_Card.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Gust Striders",
@@ -918,7 +1031,8 @@
       "cost": "30",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8752.image.webp",
       "local_image": "images/Items/114_Gust_Striders.webp",
-      "equip_slot_icon": 0
+      "equip_slot_icon": 0,
+      "description": ""
     },
     {
       "name": "Rod of Transference",
@@ -926,7 +1040,8 @@
       "cost": "40",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8753.image.webp",
       "local_image": "images/Items/115_Rod_of_Transference.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Fated Verses",
@@ -934,7 +1049,8 @@
       "cost": "30",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8754.image.webp",
       "local_image": "images/Items/116_Fated_Verses.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Dawnblade",
@@ -942,7 +1058,8 @@
       "cost": "25",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8755.image.webp",
       "local_image": "images/Items/117_Dawnblade.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Duskbrand",
@@ -950,7 +1067,8 @@
       "cost": "25",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8756.image.webp",
       "local_image": "images/Items/118_Duskbrand.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Drakescale Boots",
@@ -958,7 +1076,8 @@
       "cost": "25",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8757.image.webp",
       "local_image": "images/Items/119_Drakescale_Boots.webp",
-      "equip_slot_icon": 0
+      "equip_slot_icon": 0,
+      "description": ""
     },
     {
       "name": "Drakescale Armor",
@@ -966,7 +1085,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8758.image.webp",
       "local_image": "images/Items/120_Drakescale_Armor.webp",
-      "equip_slot_icon": 1
+      "equip_slot_icon": 1,
+      "description": ""
     },
     {
       "name": "Drakescale Helm",
@@ -974,7 +1094,8 @@
       "cost": "35",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8759.image.webp",
       "local_image": "images/Items/121_Drakescale_Helm.webp",
-      "equip_slot_icon": 2
+      "equip_slot_icon": 2,
+      "description": ""
     },
     {
       "name": "Frost Beetle Lantern",
@@ -982,7 +1103,8 @@
       "cost": "15",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8760.image.webp",
       "local_image": "images/Items/122_Frost_Beetle_Lantern.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Storm Beetle Lantern",
@@ -990,7 +1112,8 @@
       "cost": "15",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8761.image.webp",
       "local_image": "images/Items/123_Storm_Beetle_Lantern.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Ignition Beetle Lantern",
@@ -998,7 +1121,8 @@
       "cost": "15",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8762.image.webp",
       "local_image": "images/Items/124_Ignition_Beetle_Lantern.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Tremor Beetle Lantern",
@@ -1006,7 +1130,8 @@
       "cost": "15",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8763.image.webp",
       "local_image": "images/Items/125_Tremor_Beetle_Lantern.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Brilliant Beetle Lantern",
@@ -1014,7 +1139,8 @@
       "cost": "15",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8764.image.webp",
       "local_image": "images/Items/126_Brilliant_Beetle_Lantern.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Twilight Beetle Lantern",
@@ -1022,7 +1148,8 @@
       "cost": "15",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8765.image.webp",
       "local_image": "images/Items/127_Twilight_Beetle_Lantern.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Pendant of Dark Pacts",
@@ -1030,7 +1157,8 @@
       "cost": "40",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8766.image.webp",
       "local_image": "images/Items/128_Pendant_of_Dark_Pacts.webp",
-      "equip_slot_icon": 2
+      "equip_slot_icon": 2,
+      "description": ""
     },
     {
       "name": "Helm of the Mountain",
@@ -1038,7 +1166,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8767.image.webp",
       "local_image": "images/Items/129_Helm_of_the_Mountain.webp",
-      "equip_slot_icon": 2
+      "equip_slot_icon": 2,
+      "description": ""
     },
     {
       "name": "Mountain Hammer",
@@ -1046,7 +1175,8 @@
       "cost": "40",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8768.image.webp",
       "local_image": "images/Items/130_Mountain_Hammer.webp",
-      "equip_slot_icon": 4
+      "equip_slot_icon": 4,
+      "description": ""
     },
     {
       "name": "Wave Crest",
@@ -1054,7 +1184,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8769.image.webp",
       "local_image": "images/Items/131_Wave_Crest.webp",
-      "equip_slot_icon": 2
+      "equip_slot_icon": 2,
+      "description": ""
     },
     {
       "name": "Doomed Compass",
@@ -1062,7 +1193,8 @@
       "cost": "50",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8770.image.webp",
       "local_image": "images/Items/132_Doomed_Compass.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Heart of the Betrayer",
@@ -1070,7 +1202,8 @@
       "cost": "50",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8771.image.webp",
       "local_image": "images/Items/133_Heart_of_the_Betrayer.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Power Core",
@@ -1078,7 +1211,8 @@
       "cost": "75",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8772.image.webp",
       "local_image": "images/Items/134_Power_Core.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Resonant Crystal",
@@ -1086,7 +1220,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8773.image.webp",
       "local_image": "images/Items/135_Resonant_Crystal.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Helix Ring",
@@ -1094,7 +1229,8 @@
       "cost": "40",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8774.image.webp",
       "local_image": "images/Items/136_Helix_Ring.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Flea-Bitten Shawl",
@@ -1102,7 +1238,8 @@
       "cost": "10",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8775.image.webp",
       "local_image": "images/Items/137_Flea-Bitten_Shawl.webp",
-      "equip_slot_icon": 1
+      "equip_slot_icon": 1,
+      "description": ""
     },
     {
       "name": "Bloody Axe",
@@ -1110,7 +1247,8 @@
       "cost": "30",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8776.image.webp",
       "local_image": "images/Items/138_Bloody_Axe.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Otherworldly Scepter",
@@ -1118,7 +1256,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8777.image.webp",
       "local_image": "images/Items/139_Otherworldly_Scepter.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Remote Attack Spider",
@@ -1126,7 +1265,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8778.image.webp",
       "local_image": "images/Items/140_Remote_Attack_Spider.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Remote Aid Spider",
@@ -1134,7 +1274,8 @@
       "cost": "15",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8779.image.webp",
       "local_image": "images/Items/141_Remote_Aid_Spider.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Magma Waders",
@@ -1142,7 +1283,8 @@
       "cost": "40",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8780.image.webp",
       "local_image": "images/Items/142_Magma_Waders.webp",
-      "equip_slot_icon": 0
+      "equip_slot_icon": 0,
+      "description": ""
     },
     {
       "name": "Boots of Bracing",
@@ -1150,7 +1292,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8781.image.webp",
       "local_image": "images/Items/143_Boots_of_Bracing.webp",
-      "equip_slot_icon": 0
+      "equip_slot_icon": 0,
+      "description": ""
     },
     {
       "name": "Temporal Matrix",
@@ -1158,7 +1301,8 @@
       "cost": "30",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8782.image.webp",
       "local_image": "images/Items/144_Temporal_Matrix.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Harrow-Hook",
@@ -1166,7 +1310,8 @@
       "cost": "50",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8783.image.webp",
       "local_image": "images/Items/145_Harrow-Hook.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Amberhollow",
@@ -1174,7 +1319,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8784.image.webp",
       "local_image": "images/Items/146_Amberhollow.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Scepter of Xorn",
@@ -1182,7 +1328,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8785.image.webp",
       "local_image": "images/Items/147_Scepter_of_Xorn.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Shield of the Righteous",
@@ -1190,7 +1337,8 @@
       "cost": "30",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8786.image.webp",
       "local_image": "images/Items/148_Shield_of_the_Righteous.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Aesther Spyglass",
@@ -1198,7 +1346,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8787.image.webp",
       "local_image": "images/Items/149_Aesther_Spyglass.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Experimental Armor",
@@ -1206,7 +1355,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8788.image.webp",
       "local_image": "images/Items/150_Experimental_Armor.webp",
-      "equip_slot_icon": 1
+      "equip_slot_icon": 1,
+      "description": ""
     },
     {
       "name": "Sword of the Sands",
@@ -1214,7 +1364,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8789.image.webp",
       "local_image": "images/Items/151_Sword_of_the_Sands.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Ruby Talisman",
@@ -1222,7 +1373,8 @@
       "cost": "20",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8790.image.webp",
       "local_image": "images/Items/152_Ruby_Talisman.webp",
-      "equip_slot_icon": 2
+      "equip_slot_icon": 2,
+      "description": ""
     },
     {
       "name": "Hooked Shield",
@@ -1230,7 +1382,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8791.image.webp",
       "local_image": "images/Items/153_Hooked_Shield.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Focusing Ray",
@@ -1238,7 +1391,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8792.image.webp",
       "local_image": "images/Items/154_Focusing_Ray.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Etheric Elixir",
@@ -1246,7 +1400,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8793.image.webp",
       "local_image": "images/Items/155_Etheric_Elixir.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Silent Stiletto",
@@ -1254,7 +1409,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8794.image.webp",
       "local_image": "images/Items/156_Silent_Stiletto.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Stone Charm",
@@ -1262,7 +1418,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8795.image.webp",
       "local_image": "images/Items/157_Stone_Charm.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Psyschic Knife",
@@ -1270,7 +1427,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8796.image.webp",
       "local_image": "images/Items/158_Psyschic_Knife.webp",
-      "equip_slot_icon": 3
+      "equip_slot_icon": 3,
+      "description": ""
     },
     {
       "name": "Insignia of the Divine",
@@ -1278,7 +1436,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8797.image.webp",
       "local_image": "images/Items/159_Insignia_of_the_Divine.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Utility Belt",
@@ -1286,7 +1445,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8798.image.webp",
       "local_image": "images/Items/160_Utility_Belt.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Phasing Idol",
@@ -1294,7 +1454,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8799.image.webp",
       "local_image": "images/Items/161_Phasing_Idol.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "The Night's Caress",
@@ -1302,7 +1463,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8800.image.webp",
       "local_image": "images/Items/162_The_Nights_Caress.webp",
-      "equip_slot_icon": 2
+      "equip_slot_icon": 2,
+      "description": ""
     },
     {
       "name": "Pendant of the Plague",
@@ -1310,7 +1472,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8801.image.webp",
       "local_image": "images/Items/163_Pendant_of_the_Plague.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Mask of Death",
@@ -1318,7 +1481,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8802.image.webp",
       "local_image": "images/Items/164_Mask_of_Death.webp",
-      "equip_slot_icon": 2
+      "equip_slot_icon": 2,
+      "description": ""
     },
     {
       "name": "Master's Lute",
@@ -1326,7 +1490,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8803.image.webp",
       "local_image": "images/Items/165_Masters_Lute.webp",
-      "equip_slot_icon": 4
+      "equip_slot_icon": 4,
+      "description": ""
     },
     {
       "name": "Cloak of the Hunter",
@@ -1334,7 +1499,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8804.image.webp",
       "local_image": "images/Items/166_Cloak_of_the_Hunter.webp",
-      "equip_slot_icon": 1
+      "equip_slot_icon": 1,
+      "description": ""
     },
     {
       "name": "Doctor's Coat",
@@ -1342,7 +1508,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8805.image.webp",
       "local_image": "images/Items/167_Doctors_Coat.webp",
-      "equip_slot_icon": 1
+      "equip_slot_icon": 1,
+      "description": ""
     },
     {
       "name": "Elemental Vest",
@@ -1350,7 +1517,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8806.image.webp",
       "local_image": "images/Items/168_Elemental_Vest.webp",
-      "equip_slot_icon": 1
+      "equip_slot_icon": 1,
+      "description": ""
     },
     {
       "name": "Staff of Command",
@@ -1358,7 +1526,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8807.image.webp",
       "local_image": "images/Items/169_Staff_of_Command.webp",
-      "equip_slot_icon": 4
+      "equip_slot_icon": 4,
+      "description": ""
     },
     {
       "name": "Crawling Carapace",
@@ -1366,7 +1535,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8808.image.webp",
       "local_image": "images/Items/170_Crawling_Carapace.webp",
-      "equip_slot_icon": 1
+      "equip_slot_icon": 1,
+      "description": ""
     },
     {
       "name": "Sharpened Dirk",
@@ -1374,7 +1544,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8809.image.webp",
       "local_image": "images/Items/Q1_Sharpened_Dirk.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Sturdy Spear",
@@ -1382,7 +1553,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8810.image.webp",
       "local_image": "images/Items/Q2_Sturdy_Spear.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Scroll of Embers",
@@ -1390,7 +1562,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8811.image.webp",
       "local_image": "images/Items/Q3_Scroll_of_Embers.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Weighted Bolas",
@@ -1398,7 +1571,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8812.image.webp",
       "local_image": "images/Items/Q4_Weighted_Bolas.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Scroll of Relocation",
@@ -1406,7 +1580,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8813.image.webp",
       "local_image": "images/Items/Q5_Scroll_of_Relocation.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Corrosive Coating",
@@ -1414,7 +1589,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8814.image.webp",
       "local_image": "images/Items/Q6_Corrosive_Coating.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Iron Plate",
@@ -1422,7 +1598,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8815.image.webp",
       "local_image": "images/Items/Q7_Iron_Plate.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Barbed Strip",
@@ -1430,7 +1607,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8816.image.webp",
       "local_image": "images/Items/Q8_Barbed_Strip.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     },
     {
       "name": "Scroll of Foresight",
@@ -1438,7 +1616,8 @@
       "cost": "0",
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8817.image.webp",
       "local_image": "images/Items/Q9_Scroll_of_Foresight.webp",
-      "equip_slot_icon": 5
+      "equip_slot_icon": 5,
+      "description": ""
     }
   ]
 }
