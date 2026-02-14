@@ -169,7 +169,7 @@ function createItemLabel(className, text) {
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      font-size: 12px;
+      font-size: 10px;
       text-align: center;
       width: 80%;
     `;
