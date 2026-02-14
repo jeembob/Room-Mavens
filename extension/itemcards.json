@@ -942,7 +942,7 @@
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8742.image.webp",
       "local_image": "images/Items/104_Warding_Rod.webp",
       "equip_slot_icon": 3,
-      "description": ""
+      "description": "During your turn, perform WARD on two targets range 3. LOST."
     },
     {
       "name": "Lucky Eye",
