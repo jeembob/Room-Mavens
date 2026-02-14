@@ -15,7 +15,7 @@
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8639.image.webp",
       "local_image": "images/Items/1_Weathered_Boots.webp",
       "equip_slot_icon": 0,
-      "description": ""
+      "description": "During your move ability, add +1 MOVE"
     },
     {
       "name": "Winged Shoes",
@@ -60,7 +60,7 @@
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8644.image.webp",
       "local_image": "images/Items/6_Amulet_of_Life.webp",
       "equip_slot_icon": 2,
-      "description": ""
+      "description": "During your turn perform a Heal Self for 1 action. Amulet of Life is Spent after use."
     },
     {
       "name": "Poison Dagger",
@@ -132,7 +132,7 @@
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8652.image.webp",
       "local_image": "images/Items/14_Studded_Leather.webp",
       "equip_slot_icon": 1,
-      "description": ""
+      "description": "When you are attacked before drawing an attack modifer card, the attacker gains disadvantage on the attack and you gain SHIELD1 for the attack. TAPS."
     },
     {
       "name": "Comfortable Shoes",
