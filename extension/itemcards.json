@@ -105,7 +105,7 @@
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8649.image.webp",
       "local_image": "images/Items/11_Healing_Potion.webp",
       "equip_slot_icon": 5,
-      "description": ""
+      "description": "During your turn, perform a Heal 3, Self action. CONSUMED."
     },
     {
       "name": "Stamina Potion",
@@ -339,7 +339,7 @@
       "image_url": "https://gloomhaven.smigiel.us/public/images/byid/8675.image.webp",
       "local_image": "images/Items/37_Major_Healing_Potion.webp",
       "equip_slot_icon": 5,
-      "description": "During your turn, perform a Heal 3, Self action. CONSUMED."
+      "description": ""
     },
     {
       "name": "Heavy Greaves",
